@@ -1,0 +1,534 @@
+{
+  "jobs": [{
+      "title": "Customer Service Specialist",
+      "description": "A professional for direct customer support within all sectors and organisation types",
+      "level": 3,
+      "details": "You could work in a variety of organisations like retail, finance, travel or manufacturing, or for a local authority or the government. Your day-to-day activities may include: answering customers' questions by phone, email, webchat or face-to-face giving quotations and checking product availability selling and taking payments handling complaints or passing them to a manager entering customer information onto a computer database tracking orders and giving refunds ",
+      "salary": "£12,500 to £30,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Team work", "Self-development", "Responsible"]
+    },
+    {
+      "title": "Business Administrator",
+      "description": "Supporting and engaging with different parts of the organisation and interact with internal or external customers.",
+      "level": 3,
+      "details": "Your day-to-day duties could include: Answering customer enquiries over the phone, by email and face to face, processing orders, credit checks and payments, sending out invoices and other paperwork, updating customer records, checking stock and re - ordering supplies, organising deliveries, providing after - sales support, typing up documents like letters and reports ",
+      "salary": "£15,000 to £24,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Professionalism", "Responsible", "Adaptable", "Integrity", "Self-development"]
+    },
+    {
+      "title": "Civil engineering technician",
+      "description": "Providing technical support to engineers and other construction professionals",
+      "level": 3,
+      "details": "You’ll work on engineering construction projects, in areas like: structural: bridges, dams, buildings, offshore platforms and pipelines. transportation: roads, railways, tunnels and airports. environmental: public water supply networks, irrigation, drainage, waste disposal and sewage treatment. Maritime– ports, harbours and sea defences.",
+      "salary": "£14,000 to £45,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["5 GCSEs at Grades A*-C (including Maths, English and Science)"],
+      "employabilityRequirements": ["Willing to learn", "Adaptable", "Health and Safety", "Problem solving"]
+    },
+    {
+      "title": "Unified Communications Technician",
+      "description": "Setting up and maintaining communications systems under supervision, and installing communication hardware and software.",
+      "level": 3,
+      "details": "You could work with businesses, industry, schools, colleges, local authorities, healthcare providers and IT support companies. Your day-to-day tasks may include: costing and installing new IT systems to meet security regulations, upgrading existing hardware, software and networks, documenting systems so others can provide ongoing support, setting up new PCs, for people and training staff, carrying out on - site maintenance to prevent future problems, logging and prioritising faults and querie, fixing faulty equipment and testing system, putting back - up systems in place ",
+      "salary": "£12,000 to £30,000",
+      "functionalRequirements": ["English", "Maths", "Digital"],
+      "technicalRequirements": ["5 GCSEs at Grades A*-C (including Maths, English and Science)", "An aptitude test with a focus on IT skills"],
+      "employabilityRequirements": ["Creativity", "Independent working", "Initiative", "Communication", "Analytical", "Organised", "Problem solving"]
+    },
+    {
+      "title": "Hospitality Manager",
+      "description": "Working across a variety of organisations focusing on ensuring excellent customer experience",
+      "level": 4,
+      "details": "Most jobs are in the National Health Service (NHS), with a growing number in private healthcare settings. You could be responsible for controlling resources and delivering quality in a range of sectors, including: Finance, HR, health analysis, health informatics, policy and strategy, general management",
+      "salary": "£22,500 to £100,500",
+      "functionalRequirements": ["None"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Leadership", "Organised", "Planning", "Self-development", "Communication", "Decision making"]
+    },
+    {
+      "title": "Probation Officer",
+      "description": "Probation officers supervise people serving community and prison sentences, and help them to stay away from crime.",
+      "level": 6,
+      "details": "You 'll work with offenders before, during and after their sentence to reduce the risk of re-offending and help rehabilitation. You may work in: courts– helping prepare pre-sentence reports and giving advice to Her Majesty’s Courts and Tribunals Service on the day of trial prisons– working towards release with high risk offenders, prison officers and community teams community– managing offenders on community orders or on licence from prison, living at home or in Approved Premises(previously probation or bail hostels). Your day - to - day tasks may include: interviewing offenders before sentencing or parole, making sure offenders attend supervision appointments and take part in group programmes, running group programmes to change offenders ' behaviour, assessing risks and writing reports to help prisons and parole review boards decide about early release, working with victims of violent or sexual crime when prisoners are being considered for parole. working with prisoners about to be released. You'll also work with other agencies like the police, social services and youth offending teams.",
+      "salary": "£22,000 to £40,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Integrity", "Professionalism", "Adaptable"]
+    },
+    {
+      "title": "Revenues and Welfare Benefits Practitioner",
+      "description": "Performing various roles in local authorities such as benefit assessment, revenues calculation or customer service",
+      "level": 4,
+      "details": "You'll help to make sure rents, council tax and business rates are collected. You'll be responsible for arranging payment of housing and council tax benefits. Your day - to - day tasks as a revenues officer may include: calculating rents, council tax and business rates, sending bills and reminders, collecting and processing payments, recovering arrears of rent or council tax, arranging legal action against debtors, getting money back from customers who have been overpaid, attending court, With experience, you may also work on housing valuations. Your day - to - day tasks as a benefits officer may include: assessing people 's eligibility for benefits checking and processing claims forms arranging payments recovering overpayments of benefits With experience you may investigate potential cases of fraud.",
+      "salary": "£16,000 to £36,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Responsible", "Problem solving", "Integrity", "Accuracy", "Team work", "Communication"]
+    },
+    {
+      "title": "Ambulance Support Worker",
+      "description": "Responding to emergency (999), urgent and or/unscheduled care calls to provide care and clinical support",
+      "level": 3,
+      "details": "You'll drive patients to and from their hospital appointments. Your day-to-day tasks could include: helping patients out of their home and into the ambulance(it may involve lifting), helping patients settle back home after their appointments, using a radio to keep in touch with the ambulance control room, checking and maintaining the ambulance and its equipment, keeping accurate records of journeys, You may deal with elderly people, people with a physical disability or mental health problem.You may also transport people who are seriously ill with specific medical needs.",
+      "salary": "£15,250 to £19,750",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Safeguarding", "Communication", "Health and Safety"]
+    },
+    {
+      "title": "Bricklayer",
+      "description": "Laying bricks, blocks and other types of building components in mortar to construct and repair walls, foundations, partitions, arches and other structures",
+      "level": 2,
+      "details": "Your day-to-day tasks could include: measuring work areas and setting out the first rows of bricks or blocks, mixing mortar by hand or with a mechanical mixer, applying mortar with a trowel and laying bricks on top of each other, shaping and trimming bricks using hammers, chisels and power tools, checking that rows are straight using a spirit level and plumb line, You'll usually work with other bricklayers and site labourers in a small team.",
+      "salary": "£15,000 to £35,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Communication", "Initiative", "Independent working"]
+    },
+    {
+      "title": "Project Manager",
+      "description": "Delivering projects and taking on responsibility for the end-to-end delivery",
+      "level": 6,
+      "details": "You could work on different types of project in almost any industry or sector like construction, IT or the NHS. You might be managing a large building development, introducing a new computer system or developing a new advertising campaign. You'll be: finding out what the client or business wants to achieve, agreeing timescales, costs and resources,  drawing up a plan,  for each project stage,  negotiating with contractors and suppliers,  choosing and leading a project team,  constantly monitoring progress, quality and costs, reporting regularly to senior managers and the client, using specialised software and spreadsheets, for planning, costing and analysing risks.",
+      "salary": "£22,000 to £70,000+",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["3 A Levels A-C", "or a vocational equivalent"],
+      "employabilityRequirements": ["Team work", "Responsible", "Problem solving", "Leadership", "Integrity"]
+    },
+    {
+      "title": "Personal Trainer",
+      "description": "Coaching clients (on a one to one and small group basis) towards their health and fitness goals",
+      "level": 3,
+      "details": "You'll talk to clients to find out about their fitness level and health history. You'll then: set short - and long - term goals and plan programmes for reaching the educate motivate and coach clients to help them follow their programmes safely and effectively give advice on health nutrition and lifestyle changes help clients with their workouts check and record clients ' progress, using methods like measuring heart rate and levels of body fat You might work full time as a gym instructor and do personal training outside your normal hours.",
+      "salary": "£14,000 to £22,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["L2 Fitness Instructing Qualification"],
+      "employabilityRequirements": ["Ethical", "Professionalism", "Relationship building"]
+    },
+    {
+      "title": "Electronic product service & installation engineer",
+      "description": "Installing and servicing a range of domestic and/or commercial equipment",
+      "level": 3,
+      "details": "You'll design, build, test and repair the electronic parts: mobile phones, radio and TV(telecommunications), clinical and laboratory apparatus(medical scientific instruments), programmable control systems( in manufacturing and industrial machinery), computers, tablets and cash points(data communications), a wide range of control systems(anything from satellites to cars), Your day - to - day tasks may include:  designing printed circuit boards and wiring diagrams using CAD softwareresearching and developing new productstesting prototypes and analysing resultsbuilding and installing electronic control systems used in computer - aided manufacturing(CAM)quality control(inspecting and calibrating instruments)setting up maintenance schedulesfor industrial and commercial equipmentfinding and fixing equipment faults ",
+      "salary": "£18,000 to £35,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Customer service", "Reliable", "Reflection and Self Awareness"]
+    },
+    {
+      "title": "Product Design and Development Engineer",
+      "description": "Using engineering techniques to bring new products to life or redesign existing products.",
+      "level": 6,
+      "details": "You'll specialise in anything from electronics, domestic appliances and machinery to company services and web apps. Your day - to - day duties could include: discussing what your client wants, investigating how existing products work or how services are used, developing ideas and making initial sketches or outline plans, deciding on suitable materials or resources, using computer design software to produce detailed blueprints, making samples or working models, known as prototypes, testing and refining designs ",
+      "salary": "£19,000 to £50,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["5 GCSE's at Grade C or above, including Mathematics, English and a Science, Technology or Engineering related subject", "and A Levels at grade C or above in both a Mathematical based subject and a Science, Technology, Engineering or additional Mathematics related subject", "Or 90+ credits in an Engineering BTEC"],
+      "employabilityRequirements": ["Logical thinking", "Problem solving", "Communication", "Team work", "Adaptable", "Resilience", "Reflection and Self Awareness"]
+    },
+    {
+      "title": "Children and Young People Families Practitioner",
+      "description": "Working with children, young people and families, including carers, to achieve positive and sustainable change in their lives",
+      "level": 4,
+      "details": "The aim of Montessori teaching is to learn by doing, rather than finishing an activity or making an item to take home. You’ ll guide young children rather than give instructions, using specially designed equipment to cover 6 core areas of learning: practical activities used in everyday life training the senses - sight, hearing, touch, taste, smell, literacy and language, numeracy and arithmetic, knowledge and understanding of the world and different cultures, creativity.Your day - to - day duties might include: planning a programme of work and activities, preparing the learning areas and resources, and making sure they’ re safe, watching the children and making notes of progress and issues, making sure all children have equal chances to learn, supporting parents and involving them, looking after sick or injured children, helping with dressing and undressing when needed, feeding children when required, attending staff meetings, keeping records and writing reports ",
+      "salary": "£18,000 to £30,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Level 3 Diploma for Residential Childcare", "Or Certificate in Higher Education in working with Children, Young People and Families"],
+      "employabilityRequirements": ["Ethical", "Integrity", "Communication", "Resilience", "Reflection and Self Awareness"]
+    },
+    {
+      "title": "Maintenance and Operations Engineer Technician",
+      "description": "Maintaining the safety, integrity and effective operation of plant and equipment in industries that are part of the national infrastructure engineering sector, such as electricity generating, oil and gas refining and pharmaceuticals.",
+      "level": 3,
+      "details": "You’ll usually do either preventative (planned) or emergency maintenance. In preventative maintenance, your day - to - day duties may include: organising routine servicing schedules, allocating work to a team of fitters, checking and calibrating instruments to make sure they’ re accurate, fitting new parts as required,, or as part of a regular replacement rota, carrying out quality inspections on jobs. Emergency maintenance tasks may include: responding immediately to equipment breakdowns ,fixing faults on site or arranging ,for replacement equipment to be installed ,keeping production managers informed of progress ,organising teams or individuals to make sure that 24 - hour cover is available ",
+      "salary": "£18,000 to £40,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["3 GCSEs at grade C or higher including mathematics, English and science, or equivalent", "and/or relevant experience."],
+      "employabilityRequirements": ["Team work", "Communication", "Problem solving", "Ethical"]
+    },
+    {
+      "title": "Maintenance electrician",
+      "description": "Install, maintain and repair electrical systems in industrial, commercial and domestic environments.",
+      "level": 3,
+      "details": "You might work in a range of industries, like: power generation and transmission - installing turbines, switchgear, power lines and street lighting networks industrial machinery and equipment - making, fitting and repairing drives, motors and programmable logic control(PLC) panels transport - upgrading rail and signalling systems building services infrastructure - installing and maintaining lighting, heating, air conditioning, lifts and escalators ",
+      "salary": "£20,000 to £38,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Reliable", "Resilience", "Leadership", "Communication", "Team work"]
+    },
+    {
+      "title": "Business-to-business Sales Profession",
+      "description": "Delivering value to business customers, including corporate, public sector, SME, not-for-profit organisations as well as their own organisation",
+      "level": "6",
+      "details": "Your day-to day duties may include: looking at clients’ business ideas to see, if they have potential, helping clients to develop business plans, advising on sources of finance and grants, helping existing small businesses with problems, like finding ways to reduce costs or improve marketing, referring clients to other specialists, if necessary, networking with the business community and enterprise organisations, monitoring clients’ progress, running advice workshops and seminars ",
+      "salary": "£20,000 to £35,000",
+      "functionalRequirements": ["English", "Maths", "Digital"],
+      "technicalRequirements": ["A Levels (or equivalent)", "Or existing relevant Level 3 qualifications", "Relevant or prior experience may also be considered as an alternative"],
+      "employabilityRequirements": ["Ethical", "Resilience", "Reflection and Self Awareness", "Communication"]
+    },
+    {
+      "title": "Leisure duty manager",
+      "description": "Managing the day to day operation of a leisure facility",
+      "level": 3,
+      "details": "You'll be responsible for the day-to-day running of centres and their facilities, including managing staff and keeping customers happy. Your duties will vary depending on where you work, but would typically include: arranging activity timetables, organising and promoting special events, recruiting,, scheduling and managing staff, controlling budgets, taking responsibility, for health and safety. You may also visit external organisations, such as local authorities, to promote the centre.",
+      "salary": "£18,000 to £35,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Team work", "Communication", "Customer service", "Decision making"]
+    },
+    {
+      "title": "IT infrastructure technician",
+      "description": "Set people up on Information Technology (IT) systems, provide support and solve problems to help organisations run smoothly.",
+      "level": 3,
+      "details": "Your day-to-day duties may include: planning policies and procedures, making decisions about the organisation’ s priorities, assessing current and future business costs, risks and opportunities, negotiating business contracts and monitoring how these are delivered, making sure procedures meet legal requirements and technical standards, meeting regularly with the senior management team, partners and clients, keeping up to date with trends in IT, managing budgets ",
+      "salary": "£55,000 to £140,000",
+      "functionalRequirements": ["English", "Maths", "Digital"],
+      "technicalRequirements": ["5 GCSEs (including English, Maths and a Science or Technology", "Level 2 Apprenticeship", "Or an aptitude test with a focus on IT skills"],
+      "employabilityRequirements": ["Logical thinking", "Team work", "Problem solving", "Independent working", "Communication"]
+    },
+    {
+      "title": "Police community support officer",
+      "description": "Upholding law and order through the detection, prevention and investigation of crime",
+      "level": 4,
+      "details": "You could work alone, in pairs or in small teams. Depending on the police force you work for, you could be dealing with environmental issues, transport, security or antisocial behaviour. Your work will vary from one day to another, but will usually include: going on highly - visible foot and cycle patrols, offering advice on crime prevention, dealing with anti - social behaviour alongside neighbourhood wardens and community action teams, talking with young people and visiting schools, building links with businesses and community leaders, guarding crime scenes and detaining suspects until a police officer arrives, making house visits to reassure people and gather intelligence, issuing fixed penalty notices, providing support at large public gatherings, such as sports events and public demonstrations ",
+      "salary": "£17,500 to £23,250",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Responsible", "Team work", "Integrity", "Ethical"]
+    },
+    {
+      "title": "Police Constable Degree",
+      "description": "Supporting and engaging with different parts of the organisation and interact with internal or external customers.",
+      "level": 6,
+      "details": "You 'll work as a uniformed officer on patrol, checking the security of public areas. You’ll also work at a police station. Your day - to - day tasks may include: responding to calls: for help from the public: investigating crimes and offences: interviewing suspects and making arrests: giving evidence in court: controlling traffic and crowds at large public events and gatherings: giving the public advice on personal safety and crime prevention: promoting respect: for people in relation to their race: diversity and human rights: You 'll work with other police officers and staff like police community support officers, and investigators for crime scenes and road traffic accidents.",
+      "salary": "£20,000 to £60,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Responsible", "Team work", "Integrity", "Ethical"]
+    },
+    {
+      "title": "Business Administrator",
+      "description": "Supporting and engaging with different parts of the organisation and interact with internal or external customers.",
+      "level": 3,
+      "details": "You’ll work with senior managers and other professionals to support changes to the way an organisation works. Your day - to - day duties might include: speaking to managers to find out what they want to achieve, carrying out fact finding tasks into business processes to see what they do and how they do it, analysing findings and using data modelling methods to help recommend changes and improvements, explaining the benefits of your recommendations and looking at the potential impact and risks, agreeing the best way to put recommended changes into place with management, overseeing testing and quality checks of recommendations, supporting staff making changes and reporting any issues. In some cases, you may be responsible for managing a project through to completion.",
+      "salary": "£30,000 to £70,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Responsible", "Adaptable", "Resilience", "Reflection and Self Awareness"]
+    },
+    {
+      "title": "Aircraft maintenance certifying engineer",
+      "description": "Maintaining and certifying a range of civil and military aircraft - from small aeroplanes and passenger airliners to jet fighters and helicopters.",
+      "level": 4,
+      "details": "You’ll usually work in either: mechanics– building and servicing aircraft fuselage, hydraulic and pneumatic systems, like wings, engines and landing gear, avionics– installing and testing electrical and electronic systems used in navigation, communications and flight control. Your day - to - day duties in both areas might include: developing component plans using computer aided design(CAD) and computer aided manufacturing(CAM) software, investigating and testing solutions to engineering problems, building and testing prototypes, using prototypes to predict and improve the performance of aircraft systems, You’ ll also carry out line and base maintenance between flights.Line duties include pre - flight checks, refuelling and minor tasks.Base maintenance involves more detailed checks, fault diagnosis and repairs.",
+      "salary": "£20,000 to £35,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["4 GCSEs B grade or above including English, Maths and Science"],
+      "employabilityRequirements": ["Reliable", "Team work", "Adaptable", "Ethical", "Communication"]
+    },
+    {
+      "title": "Housing/Property Management",
+      "description": "Creating and sustaining successful tenancies in the private and social rented housing sectors.",
+      "level": 3,
+      "details": "You’ll take responsibility for all aspects of the let, like: advising clients about the letting process, setting up viewings and showing potential tenants around the property, selecting responsible, reliable tenants, preparing tenancy agreements and inventories, checking tenant references, making sure all aspects of the letting meet legal requirements, meeting landlords and advising on rents, arranging, for maintenance to be carried out, working with solicitors, builders, cleaners and suppliers, handling any problems with the property. You could workfor an agency that lets residential properties like houses and flats, or a commercial letting agent that advertises shops, offices and businesses. Some agents specialise in one type of property, like student lets.",
+      "salary": "£16,000 to £35,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Customer service", "Communication", "Team work", "Logical thinking", "Influence and negotiation", "Independent working"]
+    },
+    {
+      "title": "Travel consultant",
+      "description": "Making travel arrangements and booking accommodation and other services for holidaymakers and business travellers.",
+      "level": 3,
+      "details": "You may work in a high street travel agents or a call centre, specialising in personal or business travel. Depending on your role, your day - to - day tasks may include: understanding and meeting customers’ needs, using your geographical knowledge to help customers find a suitable package holiday or plan independent travel, making bookings and payments using online computer systems, advising customers about passports,, insurance,, visas,, vaccinations,, tours and vehicle hire, informing customers of changes like cancelled flights, arranging refunds and handling complaints, meeting sales targets, keeping up to date with developments in the travel industry ",
+      "salary": "£14,000 to £40,000",
+      "functionalRequirements": ["None"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Customer service", "Communication", "Ethical", "Reflection and Self Awareness", "Resilience"]
+    },
+    {
+      "title": "Dental technician",
+      "description": "Designing, manufacturing, modifying and repairing custom-made dental appliances.",
+      "level": 5,
+      "details": "You’ll usually work in commercial dental lab. You could also work in a community or hospital dental service or the armed forces. You’ll specialise in: orthodontics - creating plastic or metal devices, such as braces to straighten teeth, crown and bridge work - making items to cement in place, prosthetics - producing plastic dentures or implants, You 'll work with materials like porcelain, gold and plastic, and use the latest techniques and tools.",
+      "salary": "£22,000 to £58,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["A Levels (or equivalent)", "Or prior experience may also be considered as an alternative"],
+      "employabilityRequirements": ["Ethical", "Team work", "Responsible"]
+    },
+    {
+      "title": "Marketing Executive",
+      "description": "Helping to shape, support and deliver marketing plans, working in conjunction with the Marketing Manager.",
+      "level": 4,
+      "details": "Your day - to - day tasks may involve: doing research on customer and market trends, identifying target markets and possible sponsors, creating and planning marketing campaigns, using automated systems, for email campaigns and customer management, writing and editing, for print and multiple online uses, organising promotions and events to meet clients,, suppliers and the media, managing campaign websites and social media, managing budgets and monitoring the effectiveness of campaigns ",
+      "salary": "£18,000 to £35,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Adaptable", "Resilience", "Creativity", "Resilience", "Reflection and Self Awareness"]
+    },
+    {
+      "title": "Hair Professional",
+      "description": "Working as a barber or hairdresser to provide hair cutting, styling and grooming services for men and women.",
+      "level": 2,
+      "details": "You may work in a large team in a busy city centre hairdressers, or in a small salon serving a local community. You could also work in hotels, spas, health clubs, prisons and care homes, or on cruise ships, film sets or armed forces’ bases. You may specialise in working with particular clients or techniques, like braiding and plaiting Afro - Caribbean hair or working in a men 's barber shop. As a junior hairdresser, your tasks may include: greeting customers,  shampooing and conditioning hair,  simple cutting,  making sure towels and supplies are ready,  for use,  keeping the salon clean and tidy.",
+      "salary": "£14,000 to £30,000+",
+      "functionalRequirements": ["None"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Customer service", "Reliable", "Communication"]
+    },
+    {
+      "title": "Nuclear Welding Inspector",
+      "description": "Carrying out quality control and welding inspections for the nuclear industry, to ensure the safety and robustness of nuclear sites.",
+      "level": 4,
+      "details": "",
+      "salary": "£24,000 to £70,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["5 GCSEs at A*-C (including Maths and English at Grade B or above)"],
+      "employabilityRequirements": ["Communication", "Resilience", "Reflection and Self Awareness", "Reliable"]
+    },
+    {
+      "title": "Science Manufacturing Technician",
+      "description": "Operating the systems and equipment involved in the production of products.",
+      "level": 3,
+      "details": "material science, welding technology, welding inspection, certification, non - destructive testing techniques(checking, for cracks in plant or equipment), health and safety, business improvement.",
+      "salary": "£15,000 to £30,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Communication", "Team work", "Reliable", "Responsible"]
+    },
+    {
+      "title": "Commis Chef",
+      "description": "Preparing food and carrying out basic cooking tasks in every section of a kitchen under the supervision of a senior chef.",
+      "details": "You could work in hotels, restaurants, pubs, schools, colleges, cruise ships, the NHS or the armed forces. In a small kitchen you may be a general chef.In a large kitchen you may be a specialist chef, in charge of one area like pastry, fish or vegetables, working under a head chef.",
+      "level": 2,
+      "salary": "£13,000 to £50,000",
+      "functionalRequirements": ["None"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Communication", "Team work", "Responsible", "Resilience", "Reflection and Self Awareness"]
+    },
+    {
+      "title": "Beauty therapist",
+      "description": "Completing beauty treatments as a key part of a beauty business",
+      "level": 2,
+      "details": "You’ll provide a range of face and body treatments. Your day-to-day tasks may include: giving a facial by cleansing, massaging and toning a client’ s skin giving a makeover by applying and advising on make - up shaping eyebrows and colouring eyelashes giving a manicure, pedicure or other nail treatment like extensions and nail art removing unwanted facial and body hair giving electro - therapy treatments to improve body tone and shape giving non - surgical skin improvement treatments offering UV(ultraviolet) and spray tanning You may offer other treatments like massage, aromatherapy, hydrotherapy and reflexology.As well as carrying out treatments, you may also: answer the telephone and greet clients,book appointments,check and order supplies,keep notes of clients’ medical histories and treatment programmes,refer clients to a doctor,if needed ",
+      "salary": "£15,000 to £20,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Customer service", "Adaptable"]
+    },
+    {
+      "title": "Passenger Transport On-Board Station Team Member",
+      "description": "Ensuring the safe travel of passengers, their customers, themselves and their colleagues.",
+      "level": 2,
+      "details": "Your day-to-day duties could include: selling and checking tickets, making sure that passengers get on and off the train safely, helping to load and unload luggage, signalling the guard or driver to depart, updating message displays showing passenger information, making passenger announcements, operating CCTV cameras, giving out information on services, routes, train times and delays In smaller stations, you may have other tasks, like cleaning or clearing snow and ice off platforms during the winter.",
+      "salary": "£17,500 to £27,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Customer Service", "Communication"]
+    },
+    {
+      "title": "Adult Care Worker",
+      "description": "Providing frontline care for vulnerable adults to within their own homes, day care centres, residential and nursing homes and other healthcare settings.",
+      "level": 2,
+      "details": "You'll be helping people in their own homes or in day centres, residential or nursing homes. Your day - to - day duties may include: getting to know clients and their interests and needs helping with personal care like washing, using the toilet and dressing, food preparation, feeding and giving out medication, carrying out general tasks like housework, laundry and shopping, helping clients manage their budget, pay bills and write letters, supporting families to get used to new caring responsibilities, giving emotional and practical support to children and young people, working with other health and social care professionals to provide individual care and development plans, helping to organise leisure activities, going with clients to and from a residential home ",
+      "salary": "£12,500 to £25,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Ethical", "Responsible", "Communication", "Resilience", "Reflection and Self Awareness"]
+    },
+    {
+      "title": "Heritage Conservation Technician",
+      "description": "Working to ensure the preservation of cultural heritage objects or collections housed in archives, art galleries, libraries, museums, private collections, as well as historic and ancient sites.",
+      "level": 4,
+      "details": "Typical Duties / Responsibilities: Duties will vary depending on the employer, however typical duties are likely to include:  Assisting Conservators in the preparation and execution of conservation treatments, as well as undertaking some routine conservation treatments in agreement with qualified Conservators. Support senior colleagues in delivery and monitoring of Integrated Pest Management and Environmental Monitoring. Assess and manage risk to collections on display and in storage, and to provide support to senior colleagues in mitigating against these risks. Organisation of collections in storage / on display and maintaining records utilising appropriate collections management systems. Responsible for the day to day care of collections, including undertaking of monitoring, conservation cleaning or protection of collections.Supervising volunteers in moving or handling objects.",
+      "salary": "£24,000 to £60,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Attention to detail", "Ethical", "Responsible"]
+    },
+    {
+      "title": "Veterinary Nurse",
+      "description": "Providing expert nursing care for sick animals",
+      "level": 3,
+      "details": "You’ll usually work in a general veterinary practice. You'll need to care about animal welfare without being too sentimental. Your day - to - day tasks may include: speaking to animal owners to find out the problem, taking blood and urine samples from animals, taking x - rays, preparing animals, for treatment and assisting vets during treatment, giving injections,, medication and removing stitches, talking to pet owners about how to care, for their animals, taking care of in -patient animals, supervising and helping to train other assistants, updating records, In smaller practices you may also work on reception.",
+      "salary": "£18,000 to £26,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["5 GCSEs at A*-C (including Maths, English and Science)"],
+      "employabilityRequirements": ["Ethical", "Responsible", "Communication", "Team work"]
+    },
+    {
+      "title": "Animal Care and Welfare Assistant",
+      "description": "Looking after the routine day to day care of domestic and/or wild animals",
+      "level": 2,
+      "details": "You’ll look after animals in places like kennels, animal rescue centres and sanctuaries. You could also work in animal hospitals, Blue Cross adoption centres or as an animal collection officer for the RSPCA. Your day - to - day duties may include: preparing food and feeding, cleaning and grooming the animals exercising dogs in a yard or taking them for walks cleaning out kennels, pens and cages, and changing bedding looking after animals who become ill or distressed answering queries from colleagues and visitors ensuring that animal enclosures are maintained Depending on your role, you may also have to keep records, take bookings and advise owners on how to look after their animals. You may specialise in animal massage or hydrotherapy, working with animals recovering from injury or undergoing treatment for mobility problems.",
+      "salary": "£11,000 to £15,000 ",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Team work", "Communication", "Responsible", "Ethical"]
+    },
+    {
+      "title": "Healthcare Support Worker",
+      "description": "Providing high-quality and compassionate health and social care for a wide range of people.",
+      "level": 2,
+      "details": "You could work in the NHS, at a private hospital or nursing home, or in the community. The work you do will be part of an agreed programme of care, and you 'll be supervised by nurses. Your day - to - day tasks could include: helping patients shower and get dressed, helping people eat, making beds, using equipment to lift and move patients, talking to patients and reassuring them, helping patients to the toilet, tidying the ward or patients’ homes, taking patients ' temperature or pulse, attending meetings with other healthcare professionals ",
+      "salary": "£15,000 to £20,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Responsible", "Adaptable", "Respect", "Ethical", "Reflection and Self Awareness", "Resilience"]
+    },
+    {
+      "title": "Engineering Technician",
+      "description": "Designing, building, servicing and repairing a range of engineering products and services.",
+      "level": 3,
+      "details": "You’ll work on engineering construction projects, in areas like: structural– bridges, dams, buildings, offshore platforms and pipelines, transportation– roads, railways, tunnels and airports, environmental– public water supply networks, irrigation, drainage, waste disposal and sewage treatment, maritime– ports, harbours and sea defences. Your day - to - day duties may include: assisting with initial site surveys, arranging lab analysis of soil, rock and materials samples, creating engineering design plans, by hand or with computer aided design(CAD) software, preparing estimates of labour costs, and the amounts and type of material, drawing up timescales, for the delivery of supplies, equipment and labour, negotiating with suppliers to get value, for money, inspecting projects and supervising progress, reporting problems to site managers and preparing reports, for engineers ",
+      "salary": "£14,000 to £45,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["4 GCSEs at A*-C (including Maths, English and Science)"],
+      "employabilityRequirements": ["Reliable", "Team work", "Communication", "Logical thinking", "Attention to detail"]
+    },
+    {
+      "title": "Waste Resource Operative",
+      "description": "Collecting, transporting, processing, disposing and recycling waste and recyclables",
+      "level": 2,
+      "details": "You’ll carry out planned maintenance work, and respond to emergencies like burst pipes and major leaks. Your day - to - day duties could include: digging holes by hand or with mechanical digging equipment, using maps and plans to trace where to dig, laying and repairing water mains and pipes, using closed circuit TV to check, for blockages in pipes and drains, clearing blockages, installing water meters and hydrants, maintaining vehicles and equipment, recording details of completed work and materials used ",
+      "salary": "£15,000 to £25,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Communication", "Team work", "Attention to detail"]
+    },
+    {
+      "title": "Plumbing and Domestic Heating Technician",
+      "description": "Planning, selecting, installing, servicing, commissioning and maintaining all aspects of plumbing and heating systems",
+      "level": 3,
+      "details": "Depending on your qualifications, you'll service and repair heating, water and sanitation systems in domestic and commercial premises. Your day - to - day tasks may include: measuring and planning to give cost and time estimates,cutting,bending and joining pipes and fittings,installing water,drainage and heating systems,finding and fixing faults,servicing gas and oil - fired central heating systems and radiators,installing and fixing domestic appliances like showers and washing machines,dealing with emergency call - outs like boiler breakdowns or blocked drains,fitting weather - proof materials,joints and flashings to roofs,chimneys and walls ",
+      "salary": "£15,000 to £40,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Reliable", "Team work", "Customer service"]
+    },
+    {
+      "title": "Broadcast and Communications Technical Operator",
+      "description": "Supporting the delivery of broadcast and communication services; ",
+      "level": 3,
+      "details": "You’ll work on studio and outside broadcasts (OBs), post-production operations, and new media like interactive TV and webcasts. Your duties could include: setting up studio equipment, for transmission and editing, designing and setting up audio and video circuits, installing multimedia hardware, software and other digital broadcast technology systems, setting up and operating links between studios and OB units, editing programmes live as they’ re being transmitted or recorded, testing and servicing equipment, finding and repairing technical faults, You’ ll work as part of a team that includes producers, studio managers and presenters.",
+      "salary": "£20,000 to £50,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Communication", "Team work", "Reliable"]
+    },
+    {
+      "title": "Safety Health and Environment Technician",
+      "description": "Working with management and delivery teams to advise on the statutory health, safety and environmental requirements",
+      "level": 3,
+      "details": "You could work for a local authority, the NHS or armed services, or a central government organisation like the Food Standards Agency. You could also work as an environmental health consultant in the private sector, advising businesses on environmental health law. Depending on where you work, you could deal with a range of issues including: food safety, environmental protection, noise, radiation and pollution control, water standards, health and safety at work, animal welfare, waste management, housing standards, You might specialise in one area, or deal with all environmental health issues in your local area or company. Your day - to - day duties may include: inspecting businesses, for health and safety, food hygiene and food standards, following up complaints and investigating outbreaks of food poisoning, infectious disease or pests, collecting samples, for laboratory testing, enforcing environmental health laws, investigating accidents at work, advising community groups and giving educational talks, giving evidence in court, writing records and reports, advising employers on all environmental health matters.",
+      "salary": "£25,000 to £60,000",
+      "functionalRequirements": ["English", "Digital", "Maths"],
+      "technicalRequirements": ["5 GCSEs A*-C (including Maths and English)"],
+      "employabilityRequirements": ["Communication", "Team work", "Reliable"]
+    },
+    {
+      "title": "Leisure Team-member",
+      "description": "Supporting, enhancing and delivering the day to day operations and services of a leisure / fitness facility.",
+      "level": 2,
+      "details": "Your day-to-day duties might include: setting up, dismantling and maintaining equipment, making sure areas and facilities are clean, selling tickets and making reservations, dealing with enquiries on reception, selling food and drink ",
+      "salary": "£13,000 to £20,000",
+      "functionalRequirements": ["None"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Reliable", "Communication", "Team work", "Logical thinking"]
+    },
+    {
+      "title": "Scaffolder",
+      "description": "Providing access solutions or structural support which allows other trades to carry out their roles safely whilst working at height",
+      "level": 2,
+      "details": "Your day-to-day tasks may include: unloading scaffolding from a lorry, creating a stable base on the ground, putting up scaffolding poles and attaching horizontal tubes to them, fixing scaffolding to a building, laying planks across scaffolding, for workers to walk on, fixing guard rails and safety nets, taking down scaffolding after a job ",
+      "salary": "£14,000 to £30,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Communication", "Team work", "Independent working", "Logical thinking"]
+    },
+    {
+      "title": "Teaching Assistant",
+      "description": "Supporting the class teacher to enhance pupils’ learning",
+      "level": 3,
+      "details": "Most jobs are in nursery, primary and special schools. You could also work in secondary or independent schools and academies. Your day - to - day duties could include: getting the classroom ready, for lessons and clearing away afterwards, listening to children read or reading to them, helping children who need extra support, helping teachers prepare materials that match development needs, supervising group activities, including outings and sports events, helping teachers manage class behaviour, looking after children who are upset or unwell, leading classes with help from the teacher.",
+      "salary": "£11,500 to £23,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["5 GCSEs A*-C (including Maths and English)"],
+      "employabilityRequirements": ["Communication", "Logical thinking", "Team work"]
+    },
+    {
+      "title": "Engineering Technician",
+      "description": "Designing, building, servicing and repairing a range of engineering products and services.",
+      "level": 3,
+      "details": "You’ll work on engineering construction projects, in areas like: Structural– bridges, dams, buildings, offshore platforms and pipelines. Transportation– roads, railways, tunnels and airports. Environmental– public water supply networks, irrigation, drainage, waste disposal and sewage treatment. Maritime– ports, harbours and sea defences Your day - to - day duties may include: assisting with initial site surveys, arranging lab analysis of soil, rock and materials samples creating engineering design plans, by hand or with computer aided design(CAD) software, preparing estimates of labour costs, and the amounts and type of material, drawing up timescales, for the delivery of supplies, equipment and labour, negotiating with suppliers to get value for money, inspecting projects and supervising progress, reporting problems to site managers and preparing reports for engineers. ",
+      "salary": "£14,000 to £45,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["4 GCSEs at A*-C (including Maths, English and Science)"],
+      "employabilityRequirements": ["Responsible", "Team work", "Communication", "Logical thinking"]
+    },
+    {
+      "title": "Passenger Transport Driver - Bus, Coach and Tram",
+      "description": "Operating buses, coaches or trams, making sure passengers get where they're going safely and on time.",
+      "level": 2,
+      "details": "You could work for local bus companies, long distance operators, or holiday tour companies in the UK or overseas. You could also work in community transport, driving schoolchildren, hospital patients and older people to their destinations. Your day - to - day duties may include:  taking fares, checking tickets and passes, giving timetable or route information, helping passengers who are having difficulty getting on or off the vehicle, driving safely and keeping to timetables, If you 're a coach driver, your duties may also include: greeting passengers and checking documents, loading and unloading luggage, making announcements during the journey, making sure passengers are back on board for return journeys, and after scheduled stops, keeping the coach clean and doing basic vehicle checks, recording driving hours and reporting any incidents. If you drive to overseas destinations, you’ ll need to keep passengers up to date with travel information and deal with border control authorities.",
+      "salary": "£14,000 to £25,000",
+      "functionalRequirements": ["None"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Approachable", "Listening", "Confident", "Attention to detail"]
+    },
+    {
+      "title": "Transport Planning Technician",
+      "description": "Providing technical support to transport planners to help manage and improve transport services and systems.",
+      "level": 3,
+      "details": "You’ll look at the impact of large and small scale transport issues on the public. This could be a village bypass proposal, or road safety measures outside a school. You’ ll plan and advise on transport policies for new systems and on improvements to existing ones. Your day - to - day duties could include: simulating transport problems using computer models to work out solutions, analysing and interpreting data from transport studies, forecasting the impact of new developments like shopping centres, looking at schemes to manage traffic, like congestion charging or parking controls, studying accident 'black spots', to design road safety improvements, writing reports, for funding bids and planning authorities, acting as an expert witness during public enquiries, You’ ll also encourage people to use their cars less and walk, cycle or use public transport.",
+      "salary": "£22,000 to £50,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["5 GCSEs A*-C (including Maths and English)"],
+      "employabilityRequirements": ["Logical thinking", "Team work"]
+    },
+    {
+      "title": "Passenger Transport Operations Manager",
+      "description": "Managing, planning and coordinating passenger transport operations",
+      "level": 4,
+      "details": "Your day-to-day tasks could include: setting up staff rotas, recruiting and training staff, managing bookings, organising vehicle maintenance, marketing and advertising, making sure services comply with the law ",
+      "salary": "£20,000 to £30,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Analytical", "Attention to detail", "Team work", "Influence and negotiation", "Adaptable"]
+    },
+    {
+      "title": "Facilities Manager",
+      "description": "Making sure that buildings and their services meet the needs of the people that work in them",
+      "level": 4,
+      "details": "Your day-to-day activities may include: managing refurbishment, renovations and office moves, managing maintenance, making sure the building meets health and safety standards, advising on energy efficiency, managing cleaning, waste disposal, catering, parking and security, managing budgets and accounts, negotiating with contractors and suppliers, managing office systems like IT and equipment. You may work for a facilities management company contracted to a number of organisations.In small companies, facilities management may be part of a general management role.",
+      "salary": "£26,000 to £60,000",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["A Levels (or equivalent)", "Or relevant experience"],
+      "employabilityRequirements": ["Communication", "Responsible", "Customer service"]
+    },
+    {
+      "title": "Dental Nurse",
+      "description": "Assisting other dental health professionals, providing chair side support and a high level of patient care.",
+      "level": 3,
+      "details": "Your day-to-day tasks may include: passing instruments to the dentist or hygienist,removing water and saliva from the patient 's mouth during treatment,preparing materials to make fillings,making sure that the patient is relaxed and comfortable at all times,keeping the surgery tidy and sterile,sterilising instruments,helping record information about each patient,You may also help at the reception area,booking appointments,taking payments,for treatment and greeting and reassuring patients. You may work at a general dental practice,a hospital,with the community dental service or in a university.You could also work in the armed forces.",
+      "salary": "£26,000 to £60,000",
+      "functionalRequirements": ["None"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Ethical", "Professionalism", "Commitment", "Responsible", "Reflection and Self Awareness"]
+    },
+    {
+      "title": "Rail Engineering Operative",
+      "description": "Providing support to technicians and engineers working on the rail network and trains.",
+      "level": 2,
+      "details": "You'll follow technical plans drawn up by senior technicians or engineers. You'll use hand and power tools, including welding equipment. Your day - to - day tasks may include: helping to build new engines and carriages, fitting out carriages with lighting, upholstery, control panels and communication systems, inspecting bodywork, roofs and undercarriages, for wear and tear or damage, repairing or replacing parts, carrying out regular checks on brakes and couplings, taking apart, testing and reassembling mechanical, electrical and pneumatic systems, writing reports and updating maintenance records, You 'll work closely with other craftspeople like carpenters, painters, upholsterers and sheet metal workers.",
+      "salary": "£17,787 to £29,608",
+      "functionalRequirements": ["English", "Maths"],
+      "technicalRequirements": ["Unspecified"],
+      "employabilityRequirements": ["Team work", "Communication"]
+    }
+  ]
+
+}

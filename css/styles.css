@@ -1,0 +1,308 @@
+body {margin: 0; padding: 0; }
+header, footer, main, nav {display: block; } 
+#main {min-height: 600px; }
+
+body {
+    font-family: "nta",Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*
+#main h1, #main h2, #main h3, #main h4 {
+
+}
+#main p {
+    font-weight: 400;
+}*/
+
+
+
+#pageBreadcrumbs {margin: 4rem 0 0 0; }
+
+
+
+#quizBar {
+    width: 100%; 
+    height: 0.7em; 
+    border: 3px solid #00692f; 
+    margin: 2rem 0 3rem 0;
+    border-radius: 10px; 
+}
+#quizBarFiller {
+    width: 14.2857%; 
+    height: 100%; 
+    background-color: #00692f; 
+    border-radius: 5px 10px 10px 5px; 
+    display: flex; 
+    flex-direction: row-reverse;
+}
+.form-00 #quizBarFiller {width: 14.2857%; }
+.form-01 #quizBarFiller {width: 28.5714%; }
+.form-02 #quizBarFiller {width: 42.8571%; }
+.form-03 #quizBarFiller {width: 57.1429%; }
+.form-04 #quizBarFiller {width: 71.4286%; }
+.form-05 #quizBarFiller {width: 85.7143%; }
+
+#quizBarInner {
+    width: 50px;
+    height: 50px;
+    background: #00692f;
+    border-radius: 300px;
+    color: #fff;
+    position: absolute;
+    transform: translate(10px, -20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8em;     
+} 
+#quizBarInner span {
+    font-weight: bold; 
+    font-family: 'Courier New', Courier, monospace;
+}
+#elementOther, 
+#elementOther input {
+    display: none; 
+}
+
+
+
+
+
+
+#results div.img, 
+#results div.img a, 
+#results div.img img {
+    width: 100%; 
+    padding: 0; 
+    margin: 0;
+}
+#results .myjobs p {
+    font-size: 1.2rem; 
+}
+#results .myjobs .employabilityRequirements {
+    /*text-transform: capitalize; */
+    font-size: 1rem !important; 
+    /*word-break: break-all;*/
+}
+/*#results .myjobs .employabilityRequirements span {display: inline-block; width: 1rem;  }*/
+#results table.std {
+    margin: 20px 0 40px 0; 
+}
+
+
+
+.job .govuk-grid-row.details .govuk-grid-column-one-third {
+    background-position: center left;
+    background-repeat: no-repeat; 
+    background-size: 80px 60px; /* css3; legacy */
+    min-height: 124px;
+    padding-left: 90px; 
+}
+.job .govuk-grid-column-one-third.cash {
+    background-image: url(/assets/images/cash.d6110623.svg);
+}
+.job .govuk-grid-column-one-third.time {
+    background-image: url(/assets/images/time.f704b852.svg);
+}
+.job .govuk-grid-column-one-third.cal {
+    background-image: url(/assets/images/cal.4ef06c47.svg);
+}
+.job .govuk-grid-row.details h4, 
+.job .govuk-grid-row.details p {
+    font-size: 1.2rem; 
+}
+.job .govuk-grid-row.details h4 {    
+    line-height: 1.3rem;
+    display: inline-block; 
+    height: 8px; 
+}
+.jobs .details > div {
+    float: right; 
+}
+.job table.std th, 
+.job table.std td {
+    font-size: 1.2rem; 
+}
+.job h3 {
+    font-size: 1.4em; 
+    margin: 2rem 0; 
+}
+.job table.std td span {
+    font-size: 1rem; 
+}
+.job .option .govuk-button{
+    margin: 40px 0 12px 12px; 
+    float: right; 
+}
+.job .govuk-checkboxes__item {
+    margin: 20px 0; 
+}
+.job table.std tr td:first-child {
+    width: 80%; 
+}
+@media (min-width:40.0625em){
+    .job .govuk-grid-column-two-third table.std {
+        width: 66.6666%; 
+        float: right;  
+    }
+}
+#job.job .govuk-button {
+    margin-bottom: 15px !important; 
+}
+
+
+
+
+table.std {
+    margin: 0; 
+    padding: 0; 
+}
+table.std th, 
+table.std td {
+    padding: 6px 10px; 
+    display: table-cell;
+    vertical-align: inherit; 
+    border-bottom: 1px solid #bfc1c3; 
+    text-align: left; 
+}
+/*table.std tr td:last-child {
+    text-align: right; 
+}*/
+table.std caption {
+    position: absolute; 
+    top: -3000px; 
+    left: -3000px; 
+}
+
+img.std {
+    width: 100%; 
+    padding: 0; 
+    margin: 0;
+}
+
+
+
+
+.govuk-grid-row + hr.govuk-section-break--l {
+    margin-top: 0; 
+}
+/*body#a2-01 #main > .govuk-grid-row {
+    padding: 30px 0 0 0; 
+}
+body#a2-01 #main > .govuk-grid-row {
+    border-top: 1px solid #bfc1c3; 
+}
+body#a2-01 #main > .govuk-grid-row:first-child {
+    border-top: 0 none
+}*/
+
+#toggle {
+    width: 18px; 
+    height: 42px; 
+    position: fixed; 
+    top: 0; 
+    right: 0;     
+}
+#toggle span {
+    cursor: pointer; 
+    display: block; 
+    color: #ccc; 
+    border: 1px solid #ccc; 
+    font-size: 14px; 
+    text-align: center; 
+    width: 18px; 
+    height: 18px; 
+    text-transform: uppercase;
+}
+
+
+.job .govuk-grid-column-one-third .govuk-button--start {
+    font-weight: 200; 
+    font-size: 1rem; 
+    /*min-width: 244px; 
+    float: right; */
+    clear: left; 
+}
+
+.a2 .job-row {
+    margin: 0 0 2rem 0; 
+}
+.a2 .job-row .details .govuk-grid-column-one-third {
+    min-height: 190px; 
+}
+.a2 .govuk-grid-column-one-third .govuk-list li {
+    margin-bottom: 1.5rem; 
+}
+.a2 .govuk-form-group .govuk-checkboxes__item {
+    margin-top: 0; 
+}
+.a2 .govuk-grid-row p + .govuk-grid-row {
+    margin-bottom: -60px; 
+}
+
+#training #main > .govuk-grid-row > .govuk-grid-column-one-third .govuk-button {
+    float: right; 
+    clear: left; 
+}
+
+
+
+.statement {
+    margin: 16px 0 20px 0; 
+    display: inline-block; 
+}
+.statement img {
+    margin-bottom: -12px; 
+}
+.statement span.icon {
+    display: none; 
+}
+
+
+
+
+.training-tbl {
+    width: 100%; 
+}
+.training-tbl tr td:first-child {
+    width: 70%; 
+}
+
+.training-tbl th, 
+.training-tbl td {
+    padding: 4px 6px; 
+}
+
+.btn-row {
+    margin-top: 10px; 
+   padding: 0 0 0 9px; 
+}
+
+
+
+
+h2 a, 
+h3 a, 
+h4 a {
+    color: #005ea5 !important; 
+}
+.govuk-checkboxes__item label span {
+    font-size: 0.8rem; 
+}
+
+#footerLinks a {color: rgb(69, 74, 76); }
+.hidden {position: absolute; left: -300px; top: -3000px; }
+
+hr.std {height: 1px; height: 0.5px; border-width: 0; color:#bfc1c3; background-color:#bfc1c3; }
+
+.govuk-back-link {margin: 50px 10px 50px 0; }
+
+
+/*legend {font-size: 1rem; }
+#dataTbl th, 
+#dataTbl td {font-size: 0.8rem; } 
+#pages {font-size: 1.4rem; }
+.info-group i {font-size: 80%; }
+a.govuk-back-link:hover {text-decoration: none; }*/

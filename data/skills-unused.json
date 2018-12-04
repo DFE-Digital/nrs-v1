@@ -1,0 +1,120 @@
+{
+  "title": "Designing",
+  "description": "I have the ability to turn an idea into a drawing or plan.",
+  "score": 2
+},
+{
+  "title": "Financial Literacy",
+  "description": "I understanding how money works in the real world.",
+  "score": 3
+},
+{
+  "title": "Independent Enquiry",
+  "description": "I have the ability to work on a problem by yourself.",
+  "score": 1
+},
+{
+  "title": "Influencing",
+  "description": "I have an effect on others that brings them to your my of thinking.",
+  "score": 4
+},
+{
+  "title": "Initiative",
+  "description": "I have a tendency to act or take charge before others do.",
+  "score": 3
+},
+{
+  "title": "Interpersonal",
+  "description": "I am at ease with interacting and communicating with other people.",
+  "score": 5
+},
+{
+  "title": "Leadership",
+  "description": "I am good at identifying what a group needs to do to succeed and then lead them through the process.",
+  "score": 1
+},
+{
+  "title": "Literacy",
+  "description": "I have the ability to read and write.",
+  "score": 3
+},
+{
+  "title": "Managing Risk",
+  "description": "I am able to identify, assess and prioritise risks.",
+  "score": 2
+},
+{
+  "title": "Motivating People",
+  "description": "I have the ability to stimulate desire and energy in people for a particular task or role.",
+  "score": 4
+},
+{
+  "title": "Negotiating",
+  "description": "I have the ability to reason with others to reach a solution that benefits everyone.",
+  "score": 5
+},
+{
+  "title": "Numeracy",
+  "description": "I have the ability to understand and work with numbers.",
+  "score": 5
+},
+{
+  "title": "Organising",
+  "description": "I have the ability to arrange things or tasks in a purposeful structure.",
+  "score": 1
+},
+{
+  "title": "Planning",
+  "description": "I have the ability to identify objectives and create a strategy to achieve them.",
+  "score": 2
+},
+{
+  "title": "Presentation Skills",
+  "description": "I have the ability to express my ideas to an audience in a clear and effective way.",
+  "score": 3
+},
+{
+  "title": "Prioritising",
+  "description": "I am able to order and then deal with things or tasks by their importance.",
+  "score": 4
+},
+{
+  "title": "Problem Solving",
+  "description": "I have the ability to find solutions to difficulties and issues.",
+  "score": 1
+},
+{
+  "title": "Reflection",
+  "description": "I ofter take the time to think about how what I’ve just learned can be used in future activities.",
+  "score": 2
+},
+{
+  "title": "Scheduling",
+  "description": "I have the ability to think about the time and effort needed to complete a task.",
+  "score": 3
+},
+{
+  "title": "Self Management",
+  "description": "I have the ability to be productive without constant supervision.",
+  "score": 4
+},
+{
+  "title": "Teamwork",
+  "description": "I have the ability to work effectively with others in order to achieve a common goal.",
+  "score": 5
+},
+{
+  "title": "Time Management",
+  "description": "I am able to plan and control the amount of time you spend on a given task.",
+  "score": 1
+},
+{
+  "title": "Verbal Communication",
+  "description": "I can use sounds and language to express yourself effectively.",
+  "score": 2
+},
+{
+  "title": "Written Communication",
+  "description": "I can use written word to express yourself effectively.",
+  "score": 5
+}

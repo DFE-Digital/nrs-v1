@@ -1,0 +1,36 @@
+/* *********************** index ******************** */
+
+#area-btns input {cursor: pointer; }
+.area {display: none; /*min-height: 230px; */}
+.area.show {display: block; } 
+/*select[multiple] option[selected] { }*/
+#area-btns2 {min-height: 240px; }
+
+fieldset {border: 1px solid #bfc1c3; padding: 0 1rem 1rem 1rem; border-radius: .25rem; }
+legend {width: auto; font-weight: 600; padding: 0 0.2rem; margin-left: -0.5rem; }
+
+.form-group {/*padding: 0 0 2rem 0; */ margin-bottom: 3rem; }
+/*.area {padding: 2rem 0 0 0; }*/
+
+select[multiple].form-control {padding: 0; }
+select[multiple].form-control option {padding: 0.2rem 0.5rem; }
+
+select.form-control, 
+input.form-control, 
+fieldset {width: 450px; }
+fieldset {/*margin-top: 1.2rem; */min-height: 10.7rem; padding-top: 0.5rem; } 
+#area-btns fieldset {padding-top: 1.5rem; }
+fieldset select.form-control, 
+fieldset input.form-control {width: 418px; }
+.date-row fieldset {height: 100%; }
+
+.dates select.form-control, 
+.dates input.form-control {width: auto; display: inline-block; margin-right: 0.1rem; } 
+.dates + .dates {margin-top: 1rem; } 
+
+.form-control.hidden {visibility: hidden; }
+
+ul.ui-autocomplete {box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2); border-radius: 0 0 6px 6px; }
+ul.ui-autocomplete li.ui-menu-item {font-size: 0.9rem; }
+ul.ui-autocomplete li.ui-menu-item div:hover, 
+ul.ui-autocomplete li.ui-menu-item div.ui-state-active {border: none 0; background-color: #ccc; }/*#ffbf47*/

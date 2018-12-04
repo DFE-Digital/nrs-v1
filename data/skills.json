@@ -1,0 +1,39 @@
+{
+  "skills": [
+    {
+      "title": "Teamwork",
+      "description": "I have the ability to work effectively with others in order to achieve a common goal.",
+      "score": 5
+    },
+    {
+      "title": "Analysing",
+      "description": "I examine information in detail and interpret it for others.",
+      "score": 5
+    },
+    {
+      "title": "Communication",
+      "description": "I can use sounds and language to express myself effectively.",
+      "score": 2
+    },
+    {
+      "title": "Digital",
+      "description": "I can use computers and related technology to at least a basic level.",
+      "score": 4
+    },
+    {
+      "title": "Responsibile",
+      "description": "I have the ability to work on a problem by myself.",
+      "score": 1
+    },
+    {
+      "title": "Reflection and Self Awareness",
+      "description": "I often take the time to think about how what I’ve just learned can be used in future activities.",
+      "score": 2
+    },
+    {
+      "title": "Resilience",
+      "description": "I have the ability to find solutions to difficulties and issues.",
+      "score": 1
+    }
+  ]
+}

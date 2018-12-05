@@ -380,8 +380,41 @@ body.type .type {
 
 
 
+.vblock {
+    width: 100%; 
+    display: block; 
+    margin: 0 0 20px 0; 
+    padding: 0 0 0 100px; 
+}
 
-
+.vblock > span {
+    display: block; 
+    float: left; 
+    clear: right; 
+    width: 50px; 
+    height: 50px; 
+    margin-left: -90px; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    
+}
+.vblock h4 {
+    font-size: 1.4em; 
+}
+.vblock p {
+    margin-bottom: 6px !important
+}
+.vblock > span.cash {
+    background-image: url(/assets/images/cash.d6110623.svg);
+}
+.vblock > span.time {
+    background-image: url(/assets/images/time.f704b852.svg);
+    background-size: cover; 
+}
+.vblock > span.cal {
+    background-image: url(/assets/images/cal.4ef06c47.svg); 
+    background-size: cover; 
+}
 
 
 

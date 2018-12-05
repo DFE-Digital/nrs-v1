@@ -301,6 +301,10 @@ ul.inline-list li {
     margin-right: 2rem; 
 }
 
+.more-matches a {
+    font-size: 1.4rem; 
+}
+
 
 h2 a, 
 h3 a, 

@@ -56,6 +56,12 @@ function dynamicBtns(){//show/hide the 3rd column
     }
 }
 
+function logicList(){
+    if($('#logicTrainingList').length) {
+        $('#logicTrainingList').load('/incs/logic-list.txt');
+    }
+}
+
 /*function backLinks(){//fixes history issue after having clicked the internal jump-to links
     if($('#training').length) {
 
@@ -97,10 +103,9 @@ function dynamicBtns(){//show/hide the 3rd column
 }*/
 
 
-
 function initScripts(){
+    logicList();
     footerlinks(); 
     dynamicBtns();
     //jumpto(); 
-   
 }

@@ -1,0 +1,54 @@
+<html>
+                                        <form>
+                                                                                                                         
+                                                <div class="govuk-form-group">
+                                                    <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
+        
+                                                        <div class="govuk-checkboxes">
+                                                        <div class="govuk-checkboxes__item">
+                                                            <input class="govuk-checkboxes__input" id="ele01" name="ele01" type="checkbox" value="carcasses">
+                                                            <label class="govuk-label govuk-checkboxes__label" for="ele01">
+                                                            Leadership
+                                                            </label>
+                                                        </div>
+                                                        <div class="govuk-checkboxes__item">
+                                                            <input class="govuk-checkboxes__input" id="ele02" name="ele02" type="checkbox" value="mines">
+                                                            <label class="govuk-label govuk-checkboxes__label" for="ele02">
+                                                            Organised
+                                                            </label>
+                                                        </div>
+                                                        <div class="govuk-checkboxes__item">
+                                                            <input class="govuk-checkboxes__input" id="ele03" name="ele03" type="checkbox" value="farm">
+                                                            <label class="govuk-label govuk-checkboxes__label" for="ele03">
+                                                            Planning
+                                                            </label>
+                                                        </div>
+                                                        <div class="govuk-checkboxes__item">
+                                                                <input class="govuk-checkboxes__input" id="ele04" name="ele04" type="checkbox" value="farm">
+                                                                <label class="govuk-label govuk-checkboxes__label" for="ele04">
+                                                                    Self-development
+                                                                </label>
+                                                                </div>
+                                                                <div class="govuk-checkboxes__item">
+                                                                    <input class="govuk-checkboxes__input" id="ele05" name="ele05" type="checkbox" value="farm" checked="checked">
+                                                                    <label class="govuk-label govuk-checkboxes__label" for="ele05">
+                                                                        Communication 
+                                                                    </label>
+                                                                    <span id="communication-1-item-hint" class="govuk-hint govuk-checkboxes__hint">
+                                                                            Your're already good at this
+                                                                          </span>
+                                                                </div>
+                                                        <div class="govuk-checkboxes__item">
+                                                        <input class="govuk-checkboxes__input" id="ele06" name="ele06" type="checkbox" value="farm">
+                                                        <label class="govuk-label govuk-checkboxes__label" for="ele06">
+                                                            Decision making
+                                                        </label>
+                                                        </div>
+                                                
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+            
+                                        </form>
+  
+</html>

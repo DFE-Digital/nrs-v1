@@ -306,6 +306,86 @@ ul.inline-list li {
 }
 
 
+
+.training-list li span:first-child, 
+ul.inline-list span:first-child {
+    display: inline-block; 
+    width: 24px; 
+    height: 24px; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: contain; 
+    position: relative; 
+    bottom: -4px; 
+    margin-right: 6px; 
+}
+.training-list li span.cal, 
+ul.inline-list span.cal {
+    background-image: url(/assets/images/cal.4ef06c47.svg); 
+}
+.training-list li span.cash, 
+ul.inline-list span.cash {
+    background-image: url(/assets/images/cash.d6110623.svg); 
+}
+ul.inline-list span.cal, 
+ul.inline-list span.cash {
+    width: 30px; 
+    height: 30px; 
+    bottom: -6px; 
+}
+
+
+
+ul.panel-list li span:first-child {
+    display: inline-block; 
+    width: 14px; 
+    height: 14px; 
+    margin-right: 10px; 
+    position: relative; 
+    bottom: -1px; 
+
+    background-color: #000; 
+}
+ul.panel-list span.online {
+
+}
+ul.panel-list span.blended {
+
+}
+ul.panel-list span.bootcamp {
+
+}
+
+
+
+span.m {
+    width: 100%; 
+    display: block; 
+    margin: 0 0 4px 0; 
+}
+p.m {
+    margin-bottom: 30px; 
+}
+
+/*.govuk-grid-column-two-thirds 
+
+.govuk-grid-column-one-half > p.m span.m + span.m {
+    font-weight: bold; 
+}*/
+
+
+body.type .type {
+    font-size: 2.5em; 
+}
+
+
+
+
+
+
+
+
+
 h2 a, 
 h3 a, 
 h4 a {

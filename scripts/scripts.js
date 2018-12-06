@@ -87,17 +87,40 @@ function results(){
         }
         //alert(myScores);//show my localStorage array
 
-        /* use this for creating results table ... */
-        /*for (var i = 0; i < myScores.length; i++) {//match score to skills
+        
+        /* xxxxxxxxxxx the result percentage scores table starts xxxxxxxxxxxx */
+        var scoreHTML = ''; 
+        var titlesArray = ['Teamwork', 'Analysing', 'Communication', 'Digital', 'Responsibile', 'Reflection and Self Awareness', 'Resilience']; 
+        var s;
+        for (var i = 0; i < myScores.length; i++) {//match score to skills
             var score = parseInt(myScores[i], 10); 
-            var scoreVal = 'xxx';
-            if(score >= 3){
-                alert(score); 
-                scoreVal = score / 3;
-            }else{
-                scoreVal = score + 25; 
+
+            function tr(s, i){
+                var str; 
+                if (typeof s === 'string' || s instanceof String){
+                    str = '<tr><td>'+ titlesArray[i] +'</td><td>75%</td></tr>';
+                }else{
+                    str = '<tr><td>'+ titlesArray[i] +'</td><td>'+ Math.floor((s / 5) * 100) +'%</td></tr>';
+                }
+                return str;
             }
-        }*/
+
+            if(score >= 3){//0 - 5
+                s = score; 
+                scoreHTML = scoreHTML + tr(s, i);
+
+            }else if(isNaN(score)){//= NaN - covers the current training course form which records no value
+                s = '75';
+                scoreHTML = scoreHTML + tr(s, i);
+
+            }else{
+                s = score + 0.5;
+                scoreHTML = scoreHTML + tr(s, i);
+            }
+            
+        }
+        $('#theScores').append(scoreHTML);
+        /* xxxxxxxxxxx the result percentage scores table ends xxxxxxxxxxxx */
         
 
         var mySkills = new Array(); 
@@ -194,7 +217,7 @@ function results(){
                                     '<div class="img"><a href="job.html?no='+ key +'">' +
                                     '<img src="/assets/images/job-blank.png" alt="Blank image holder">' +
                                     '</a></div>' +
-                                    '<h2><a href="job.html?no='+ key +'" class="govuk-link">' + value.title + '</a></h2>' +
+                                    '<h2><a href="job-listing.html?no='+ key +'" class="govuk-link">' + value.title + '</a></h2>' +
                                     '<p><b>Training available. <br>'+ value.salary +'</b></p>' + 
                                     '<p>'+ value.description +'</p>' +
                                     '<p class="employabilityRequirements">'+ 
@@ -281,7 +304,9 @@ function job(){
     }
 }
 
+function joblisting(){
 
+}
 
 
 
@@ -290,4 +315,5 @@ function initScripts(){
     quiz(); 
     results(); 
     job();
+    joblisting();
 }

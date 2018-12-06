@@ -103,7 +103,35 @@ function logicList(){
 }*/
 
 
+function showMore(){
+        jQuery.fn.extend({
+            toggleText: function (a, b){
+                var that = this;
+                    if (that.text() != a && that.text() != b){
+                        that.text(a);
+                    }
+                    else
+                    if (that.text() == a){
+                        that.text(b);
+                    }
+                    else
+                    if (that.text() == b){
+                        that.text(a);
+                    }
+                return this;
+            }
+        });
+
+
+    $('#myLink').click(function(e){
+        e.preventDefault();
+        $('#hideJobs').toggle();
+        $("#myLink").toggleText('Show less', 'View more matches');
+    });
+}
+
 function initScripts(){
+    showMore();
     logicList();
     footerlinks(); 
     dynamicBtns();

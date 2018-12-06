@@ -417,6 +417,16 @@ body.type .type {
 }
 
 
+#actionBtns {
+    padding-left: 16px; margin-top: 50px;
+}
+#actionBtns .govuk-button {
+    clear: left; 
+    float: left; 
+}
+
+
+
 
 
 h2 a, 

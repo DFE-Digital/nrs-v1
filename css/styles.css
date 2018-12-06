@@ -381,7 +381,6 @@ body.type .type {
 
 
 .vblock {
-    width: 100%; 
     display: block; 
     margin: 0 0 20px 0; 
     padding: 0 0 0 100px; 
@@ -396,13 +395,15 @@ body.type .type {
     margin-left: -90px; 
     background-repeat: no-repeat;
     background-position: center center; 
+    margin-top: 8px; 
     
 }
 .vblock h4 {
     font-size: 1.4em; 
+    margin: 0 0 2px 0; 
 }
 .vblock p {
-    margin-bottom: 6px !important
+    margin: 8px 0 4px 0 !important
 }
 .vblock > span.cash {
     background-image: url(/assets/images/cash.d6110623.svg);

@@ -214,7 +214,7 @@ function results(){
                             if((jobs[i] != '')&&(jobs[i] == key)){//ignore any empty vals in my jobs array
                                 
                                 myHTML = myHTML + '<div class="govuk-grid-column-one-third">' + 
-                                    '<div class="img"><a href="job.html?no='+ key +'">' +
+                                    '<div class="img"><a href="job-listing.html?no='+ key +'">' +
                                     '<img src="/assets/images/job-blank.png" alt="Blank image holder">' +
                                     '</a></div>' +
                                     '<h2><a href="job-listing.html?no='+ key +'" class="govuk-link">' + value.title + '</a></h2>' +
@@ -305,7 +305,122 @@ function job(){
 }
 
 function joblisting(){
+    if($('body#job-listing').length) {  
 
+        var jobID = getQueryStringValue('no');
+        //alert(x); 
+        $.getJSON('/data/jobs.json', function(data){
+            $.each(data.jobs, function (key, value) {
+                
+                if(key == jobID){
+                
+                    var myTitle = value.title; 
+                    var myStrap = value.description; 
+
+                    var threeBlocks = '<div class="govuk-grid-row details">' +
+                                    '<div class="govuk-grid-column-one-third cash">' +
+                                        '<div>' +
+                                            '<h4>Average salary</h4>' +
+                                            '<hr class="govuk-section-break govuk-section-break--visible">' +
+                                            '<p>'+ value.salary +'</p>' +
+                                        '</div>' +
+                                    '</div>' +
+                                    '<div class="govuk-grid-column-one-third time">' +
+                                        '<div>' +
+                                            '<h4>Typical Hours</h4>' +
+                                            '<hr class="govuk-section-break govuk-section-break--visible">' +
+                                            '<p>37 to 41</p>' +
+                                        '</div>' +
+                                    '</div>' +
+                                    '<div class="govuk-grid-column-one-third cal">' +
+                                        '<div>' +
+                                            '<h4>You could work</h4>' +
+                                            '<hr class="govuk-section-break govuk-section-break--visible">' +
+                                            '<p>between 8am and 6pm</p>' +
+                                        '</div>' +
+                                    '</div>' +
+                                '</div>'; 
+
+                    var what = '<h2 class="govuk-heading-l" style="margin-top: 40px;">What you\'ll do</h2>' +
+                               '<p class="govuk-body">'+ value.details +'</p>'; 
+
+                    var howTitle = '<h3 class="govuk-heading-l">How to become a '+ myTitle +'</h3>'; 
+
+                    var option01 = '<div class="govuk-grid-row govuk-!-margin-bottom-6">' +
+                        '<div class="govuk-grid-column-full">' +
+                            '<div class="govuk-grid-column-one-half" style="padding-left: 0;">' +
+                                '<img alt="laptop" src="/assets/images/online.f4deeb38.jpeg" style="width: 100%;">' +
+                            '</div>' +
+                            '<div class="govuk-grid-column-one-half">' +
+                                '<h2 class="govuk-heading-m"><a href="#">Option 1 - Online only</a></h2>' +
+
+                                '<ul class="govuk-list govuk-list--bullet">' +
+                                '<li>Online Maths Course: 60 hours</li>' +
+                                '<li>Online English Course: 60 hours</li>' +
+                                '<li>Online Responsible Course: 30 hours</li>' +
+                                '<li><b>Cost</b> (Financing Available)	<b>£99.00</b></li>' +
+                                '</ul>' +
+                                
+                                '<a href="#" type="submit" role="button" class="govuk-button">Choose this option</a>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>';
+
+                    var option02 = '<div class="govuk-grid-row govuk-!-margin-bottom-6">' +
+                        '<div class="govuk-grid-column-full">' +
+                            '<div class="govuk-grid-column-one-half" style="padding-left: 0;">' +
+                                '<img alt="laptop" src="/assets/images/classroom.9fc25017.jpg" style="width: 100%;">' +
+                            '</div>' +
+                            '<div class="govuk-grid-column-one-half">' +
+                                '<h2 class="govuk-heading-m"><a href="#">Option 2 — Online and college classes (3 months)</a></h2>' +
+
+                                '<ul class="govuk-list govuk-list--bullet">' +
+                                '<li>Online Maths Course: 60 hours</li>' +
+                                '<li>Classroom: Responsible course:	6 weeks</li>' +
+                                '<li><b>Cost</b> (Financing Available)	<b>£250.00</b></li>' +
+                                '</ul>' +
+                                
+                                '<a href="#" type="submit" role="button" class="govuk-button">Choose this option</a>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>';   
+
+                    var option03 = '<div class="govuk-grid-row govuk-!-margin-bottom-6">' +
+                        '<div class="govuk-grid-column-full">' +
+                            '<div class="govuk-grid-column-one-half" style="padding-left: 0;">' +
+                                '<img alt="laptop" src="/assets/images/bootcamp.1f38ef50.jpeg" style="width: 100%;">' +
+                            '</div>' +
+                            '<div class="govuk-grid-column-one-half">' +
+                                '<h2 class="govuk-heading-m"><a href="#">Option 3 — Bootcamp (2 weeks)</a></h2>' +
+
+                                '<ul class="govuk-list govuk-list--bullet">' +
+                                '<li>Classroom Revenues and Welfare Benefits Practitioner bootcamp:	2 weeks</li>' +
+                                '<li><b>Cost</b> (Financing Available)	<b>£1000.00</b></li>' +
+                                '</ul>' +
+                                
+                                '<a href="#" type="submit" role="button" class="govuk-button">Choose this option</a>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>';                                      
+
+                    //$('#target').append(myHTML); 
+                    $('#repeatTitle').text(myTitle); 
+                    $('#strap').text(myStrap); 
+                    $('#threeBlocks').html(threeBlocks);
+                    $('#what').html(what);
+                    $('#howTitle').html(howTitle);
+                    $('#option01').html(option01);
+                    $('#option02').html(option02);
+                    $('#option03').html(option03);
+
+
+
+                }
+            });
+        });
+        
+
+    }
 }
 
 

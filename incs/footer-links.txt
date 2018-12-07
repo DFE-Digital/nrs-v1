@@ -12,9 +12,9 @@
     <a class="govuk-footer__link" href="results.html">Results</a>
 </li>
 <li class="govuk-footer__inline-list-item">
-    <a class="govuk-footer__link" href="job.html">Job</a>
+    <a class="govuk-footer__link" id="job-footer-link" href="job-listing.html?no=1">Job</a>
 </li>
 <li class="govuk-footer__inline-list-item">
-    <a class="govuk-footer__link" href="courses.html">Courses</a>
+    <a class="govuk-footer__link" id="online-footer-link" href="online.html?no=1">Courses</a>
 </li>
 </html>

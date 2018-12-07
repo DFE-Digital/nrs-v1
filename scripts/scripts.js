@@ -69,8 +69,6 @@ function results(){
     if($('body#results').length) {  
 
 
-        
-
         var mySkills = new Array(); 
         var myJobs = new Array();  
         $.getJSON('/data/skills.json', callbackSkillsWithData);
@@ -252,6 +250,8 @@ function results(){
         /* xxxxxxxxxxx the result percentage scores table ends xxxxxxxxxxxx */
        
     }  
+    
+    
 }
 
 function job(){
@@ -416,6 +416,11 @@ function joblisting(){
                 }
             });
         });
+
+
+        setTimeout(function(){
+            $('#job-footer-link').attr('href', 'job-listing.html?no=' + jobID);
+        }, 4000);//hack! will be useful if job has been selected
         
 
     }
@@ -455,7 +460,7 @@ function blended(){
   }  
 }
 
-function blended(){
+function bootcamp(){
   if($('body#bootcamp').length) {  
     var jobID = getQueryStringValue('no');
     

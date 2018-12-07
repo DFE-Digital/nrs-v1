@@ -68,59 +68,7 @@ function quiz(){
 function results(){
     if($('body#results').length) {  
 
-        var str = localStorage.getItem('quiz');
-        
-        if ((typeof str === 'undefined') || ( str == null)){
-            $('#target').html('<p>Take the quiz.</p>');
-        }else{
-            str = str.replace('null,','');//remove leading null
-        }
 
-        
-        
-
-        var myScores;
-        if(str.length === 0) {//put localstorage str into array as integars
-            myScores = new Array();
-        }else{
-            myScores = str.replace(/, +/g, ',').split(',').map(Number);//creates the array
-        }
-        //alert(myScores);//show my localStorage array
-
-        
-        /* xxxxxxxxxxx the result percentage scores table starts xxxxxxxxxxxx */
-        var scoreHTML = ''; 
-        var titlesArray = ['Teamwork', 'Analysing', 'Communication', 'Digital', 'Responsibile', 'Reflection and Self Awareness', 'Resilience']; 
-        var s;
-        for (var i = 0; i < myScores.length; i++) {//match score to skills
-            var score = parseInt(myScores[i], 10); 
-
-            function tr(s, i){
-                var str; 
-                if (typeof s === 'string' || s instanceof String){
-                    str = '<tr><td>'+ titlesArray[i] +'</td><td>75%</td></tr>';
-                }else{
-                    str = '<tr><td>'+ titlesArray[i] +'</td><td>'+ Math.floor((s / 5) * 100) +'%</td></tr>';
-                }
-                return str;
-            }
-
-            if(score >= 3){//0 - 5
-                s = score; 
-                scoreHTML = scoreHTML + tr(s, i);
-
-            }else if(isNaN(score)){//= NaN - covers the current training course form which records no value
-                s = '75';
-                scoreHTML = scoreHTML + tr(s, i);
-
-            }else{
-                s = score + 0.5;
-                scoreHTML = scoreHTML + tr(s, i);
-            }
-            
-        }
-        $('#theScores').append(scoreHTML);
-        /* xxxxxxxxxxx the result percentage scores table ends xxxxxxxxxxxx */
         
 
         var mySkills = new Array(); 
@@ -249,7 +197,59 @@ function results(){
             } else {
                 myJobsDiv.html('<p>There are currently no job matches.</p>');
             }
-        }    
+        }  
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx first part of the page, now ... xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+        var str = localStorage.getItem('quiz');
+        
+        if ((typeof str === 'undefined') || ( str == null)){
+            $('#target').html('<p>Take the quiz.</p>');
+        }else{
+            str = str.replace('null,','');//remove leading null
+        }
+
+        var myScores;
+        if(str.length === 0) {//put localstorage str into array as integars
+            myScores = new Array();
+        }else{
+            myScores = str.replace(/, +/g, ',').split(',').map(Number);//creates the array
+        }
+        //alert(myScores);//show my localStorage array
+        
+        /* xxxxxxxxxxx the result percentage scores table starts xxxxxxxxxxxx */
+        var scoreHTML = ''; 
+        var titlesArray = ['Teamwork', 'Analysing', 'Communication', 'Digital', 'Responsibile', 'Reflection and Self Awareness', 'Resilience']; 
+        var s;
+        for (var i = 0; i < myScores.length; i++) {//match score to skills
+            var score = parseInt(myScores[i], 10); 
+
+            function tr(s, i){
+                var str; 
+                if (typeof s === 'string' || s instanceof String){
+                    str = '<tr><td>'+ titlesArray[i] +'</td><td>75%</td></tr>';
+                }else{
+                    str = '<tr><td>'+ titlesArray[i] +'</td><td>'+ Math.floor((s / 5) * 100) +'%</td></tr>';
+                }
+                return str;
+            }
+
+            if(score >= 3){//0 - 5
+                s = score; 
+                scoreHTML = scoreHTML + tr(s, i);
+
+            }else if(isNaN(score)){//= NaN - covers the current training course form which records no value
+                s = '75';
+                scoreHTML = scoreHTML + tr(s, i);
+
+            }else{
+                s = score + 0.5;
+                scoreHTML = scoreHTML + tr(s, i);
+            }
+            
+        }
+        $('#theScores').append(scoreHTML);
+        /* xxxxxxxxxxx the result percentage scores table ends xxxxxxxxxxxx */
        
     }  
 }
@@ -258,7 +258,7 @@ function job(){
     if($('body#job').length) {  
 
         var jobID = getQueryStringValue('no');
-        //alert(x); 
+        
         $.getJSON('/data/jobs.json', function(data){
             $.each(data.jobs, function (key, value) {
                 
@@ -352,16 +352,16 @@ function joblisting(){
                                 '<img alt="laptop" src="/assets/images/online.f4deeb38.jpeg" style="width: 100%;">' +
                             '</div>' +
                             '<div class="govuk-grid-column-one-half">' +
-                                '<h2 class="govuk-heading-m"><a href="#">Option 1 - Online only</a></h2>' +
+                                '<h2 class="govuk-heading-m"><a href="online.html?no='+ jobID +'">Option 1 - Online only</a></h2>' +
 
                                 '<ul class="govuk-list govuk-list--bullet">' +
                                 '<li>Online Maths Course: 60 hours</li>' +
                                 '<li>Online English Course: 60 hours</li>' +
                                 '<li>Online Responsible Course: 30 hours</li>' +
-                                '<li><b>Cost</b> (Financing Available)	<b>£99.00</b></li>' +
+                                '<li><b>Cost</b> (Financing Available):	<b>£99.00</b></li>' +
                                 '</ul>' +
                                 
-                                '<a href="#" type="submit" role="button" class="govuk-button">Choose this option</a>' +
+                                '<a href="online.html?no='+ jobID +'" type="submit" role="button" class="govuk-button">Choose this option</a>' +
                             '</div>' +
                         '</div>' +
                     '</div>';
@@ -372,15 +372,15 @@ function joblisting(){
                                 '<img alt="laptop" src="/assets/images/classroom.9fc25017.jpg" style="width: 100%;">' +
                             '</div>' +
                             '<div class="govuk-grid-column-one-half">' +
-                                '<h2 class="govuk-heading-m"><a href="#">Option 2 — Online and college classes (3 months)</a></h2>' +
+                                '<h2 class="govuk-heading-m"><a href="blended.html?no='+ jobID +'">Option 2 — Online and college classes (3 months)</a></h2>' +
 
                                 '<ul class="govuk-list govuk-list--bullet">' +
                                 '<li>Online Maths Course: 60 hours</li>' +
                                 '<li>Classroom: Responsible course:	6 weeks</li>' +
-                                '<li><b>Cost</b> (Financing Available)	<b>£250.00</b></li>' +
+                                '<li><b>Cost</b> (Financing Available):	<b>£250.00</b></li>' +
                                 '</ul>' +
                                 
-                                '<a href="#" type="submit" role="button" class="govuk-button">Choose this option</a>' +
+                                '<a href="blended.html?no='+ jobID +'" type="submit" role="button" class="govuk-button">Choose this option</a>' +
                             '</div>' +
                         '</div>' +
                     '</div>';   
@@ -391,14 +391,14 @@ function joblisting(){
                                 '<img alt="laptop" src="/assets/images/bootcamp.1f38ef50.jpeg" style="width: 100%;">' +
                             '</div>' +
                             '<div class="govuk-grid-column-one-half">' +
-                                '<h2 class="govuk-heading-m"><a href="#">Option 3 — Bootcamp (2 weeks)</a></h2>' +
+                                '<h2 class="govuk-heading-m"><a href="bootcamp.html?no='+ jobID +'">Option 3 — Bootcamp (2 weeks)</a></h2>' +
 
                                 '<ul class="govuk-list govuk-list--bullet">' +
                                 '<li>Classroom Revenues and Welfare Benefits Practitioner bootcamp:	2 weeks</li>' +
-                                '<li><b>Cost</b> (Financing Available)	<b>£1000.00</b></li>' +
+                                '<li><b>Cost</b> (Financing Available):	<b>£1000.00</b></li>' +
                                 '</ul>' +
                                 
-                                '<a href="#" type="submit" role="button" class="govuk-button">Choose this option</a>' +
+                                '<a href="bootcamp.html?no='+ jobID +'" type="submit" role="button" class="govuk-button">Choose this option</a>' +
                             '</div>' +
                         '</div>' +
                     '</div>';                                      
@@ -413,14 +413,63 @@ function joblisting(){
                     $('#option02').html(option02);
                     $('#option03').html(option03);
 
-
-
                 }
             });
         });
         
 
     }
+}
+
+function online(){
+  if($('body#online').length) {  
+    var jobID = getQueryStringValue('no');
+    
+    $.getJSON('/data/jobs.json', function(data){
+        $.each(data.jobs, function (key, value) {
+            
+            if(key == jobID) {
+                var myTitle = value.title; 
+                $('#myTitle').text(myTitle); 
+            }
+
+        });
+    });
+  }  
+}
+
+function blended(){
+  if($('body#blended').length) {  
+    var jobID = getQueryStringValue('no');
+    
+    $.getJSON('/data/jobs.json', function(data){
+        $.each(data.jobs, function (key, value) {
+            
+            if(key == jobID) {
+                var myTitle = value.title; 
+                $('#myTitle').text(myTitle); 
+            }
+
+        });
+    });
+  }  
+}
+
+function blended(){
+  if($('body#bootcamp').length) {  
+    var jobID = getQueryStringValue('no');
+    
+    $.getJSON('/data/jobs.json', function(data){
+        $.each(data.jobs, function (key, value) {
+            
+            if(key == jobID) {
+                var myTitle = value.title; 
+                $('#myTitle').text(myTitle); 
+            }
+
+        });
+    });
+  }  
 }
 
 
@@ -430,5 +479,8 @@ function initScripts(){
     quiz(); 
     results(); 
     job();
-    joblisting();
+    joblisting(); 
+    online(); 
+    blended(); 
+    bootcamp();
 }

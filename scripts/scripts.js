@@ -71,9 +71,7 @@ function results(){
 
         var mySkills = new Array(); 
         var myJobs = new Array();  
-        $.getJSON('/data/skills.json', callbackSkillsWithData);
-        $.getJSON('/data/jobs.json', callbackJobsWithData);
-
+       
         function callbackSkillsWithData(data){ 
             var count = 0; 
             var skills = data.skills.map(function(item) {//loop through the skills nodes
@@ -94,6 +92,10 @@ function results(){
                 $('#myResults').empty().append(list);
             }
         }
+
+       $.getJSON('/data/skills.json', callbackSkillsWithData);
+       
+               
 
         function callbackJobsWithData(data1){
             var jobNoCount = 0;//where in the json is the job
@@ -195,7 +197,9 @@ function results(){
             } else {
                 myJobsDiv.html('<p>There are currently no job matches.</p>');
             }
-        }  
+        } 
+
+        $.getJSON('/data/jobs.json', callbackJobsWithData); 
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx first part of the page, now ... xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 

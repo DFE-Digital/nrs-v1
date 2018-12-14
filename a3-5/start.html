@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8" />
     <title>
-  End | Learning about fractions
+  Learning about fractions
 </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#0b0c0c" /> 
@@ -20,7 +19,10 @@
 
     
   <!--[if lte IE 8]><link href="/stylesheets/application-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
-<!--[if gt IE 8]><!--><link href="/stylesheets/application.css" media="all" rel="stylesheet" type="text/css" /><!--<![endif]-->
+<!--[if gt IE 8]><!--><link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen"><!--<![endif]-->
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/application.css" media="screen">
+
 
 
     
@@ -39,6 +41,12 @@
 
     
   
+  <div class="app-cookie-banner">
+    <p class="app-cookie-banner__message">
+      GOV.UK uses cookies to make the site simpler. <a href="#">Find out more about cookies</a>
+    </p>
+  </div>
+
 
   
   <header class="govuk-header " role="banner" data-module="header">
@@ -94,26 +102,27 @@
         <main class="govuk-main-wrapper " id="main-content" role="main">
           
 
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <h1 class="govuk-heading-xl">
-      You’ve reached the end of this prototype
-    </h1>
-    <a href="live.html" role="button" draggable="false" class="govuk-button">
-      Restart the prototype
-    </a>
-    <p class="govuk-body">
-    <a href="#" onClick="goBack()" draggable="false">
-      Go back a step
-    </a>
-  </p>
+
+    <main class="govuk-main-wrapper " id="main-content" role="main">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          
+          <h1 class="govuk-heading-xl">
+            
+
+          </h1>
+
+          <p class="govuk-body">Choose a prototype:</p>
+          
+          <ul class="govuk-list govuk-list--bullet">
+            <li><a href="live.html">real time support</a></li>
+            <li><a href="async.html">a-syncronous support</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
   </div>
-</div>
-<script type="text/javascript">
-  function goBack() {
-    window.history.back();
-  }
-</script>
+
 
         </main>
       </div>
@@ -180,8 +189,6 @@
 </footer>
 
   
-
-    
   
     <!-- Javascript -->
 <script src="/scripts/jquery.min.js"></script>

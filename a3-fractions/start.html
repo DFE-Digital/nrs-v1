@@ -19,16 +19,21 @@
 
     
   <!--[if lte IE 8]><link href="/stylesheets/application-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
-<!--[if gt IE 8]><!--><!--<![endif]-->
+<!--[if gt IE 8]><!--><link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen"><!--<![endif]-->
 
-<link href="/stylesheets/application.css" media="all" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/application.css" media="screen">
+
 
 
     
     
     <meta property="og:image" content="/assets/images/govuk-opengraph-image.png">
   </head>
-  <body class="govuk-template__body ">
+  <body class="govuk-template__body "><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.26.3'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
     
 
     
@@ -180,8 +185,6 @@
 </footer>
 
   
-
-    
   
     <!-- Javascript -->
 <script src="/scripts/jquery.min.js"></script>

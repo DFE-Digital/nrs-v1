@@ -3406,7 +3406,7 @@ p + .govuk-heading-s,
 }
 
 .govuk-tabs__list-item::before {
-  content: "— ";
+  content: "ï¿½ ";
   margin-left: -25px;
   padding-right: 5px;
 }

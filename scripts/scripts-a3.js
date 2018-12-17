@@ -73,86 +73,60 @@ function myChat(){
 
     $('#clearChat').click(function(e){
         e.preventDefault();
-       //js cookie clear here !
+       //js cookie clear 
         document.cookie.split(";").forEach(function(c) { 
             document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
         });
-        /*var name = '.crisp.chat';
-        var pathBits = location.pathname.split('/');
-        var pathCurrent = ' path=';
 
-        // do a simple pathless delete first.
-        document.cookie = name + '=; expires=Thu, 01-Jan-1970 00:00:01 GMT;';
+        location.reload();
+    }); 
 
-        for (var i = 0; i < pathBits.length; i++) {
-            pathCurrent += ((pathCurrent.substr(-1) != '/') ? '/' : '') + pathBits[i];
-            document.cookie = name + '=; expires=Thu, 01-Jan-1970 00:00:01 GMT;' + pathCurrent + ';';
-        }*/
-
-
-
+    $('#openChat').click(function(e){
+        e.preventDefault();
+        openCrisp();
     });
 }
 
 
 
 $(window).on('load', function() {
-    //if($('body#pre-live').length){
-        
-        openCrisp(); //when first visiting the page, open the chat div
-        
-        
-
-        //change opening welcome message
-        //https://help.crisp.chat/en/article/how-can-i-change-the-chatbox-welcome-message-1ja9m16/
-    //}
+    openCrisp(); //open the chat panel on each page
 });
 
 
 function init(){
+    //start - listien live for when chat divs are added to DOM
+    var observer = new MutationObserver(function(mutations){
+        mutations.forEach(function(mutation) {//console.log(mutation)
 
-    if($('body#pre-live').length){
-        //start - listien live for when chat divs are added to DOM
-        var observer = new MutationObserver(function(mutations){
-            mutations.forEach(function(mutation) {//console.log(mutation)
+            if (mutation.addedNodes && mutation.addedNodes.length > 0) {
+                // element added to DOM
+                var hasClass = [].some.call(mutation.addedNodes, function(el) {
+                    return el.classList.contains('crisp-client')
+                });
 
-                if (mutation.addedNodes && mutation.addedNodes.length > 0) {
-                    // element added to DOM
-                    var hasClass = [].some.call(mutation.addedNodes, function(el) {
-                        return el.classList.contains('crisp-client')
-                    });
-                    if(hasClass){// element has class `MyClass`
+                if(hasClass){// element has class `MyClass`
 
-                        //here we instantly hide the div(s) so we can then add a style class, and then show
-                        var t = $('body#pre-live').children('.crisp-client');
+                    //here we instantly hide the div(s) so we can then add a style class, and then show
+                    if ($(window).width() > 960) {//only for desktops
+                        var t = $('body').children('.crisp-client');
 
-                        t.hide(function(){
-                            t.show(function(){
-                                
-                                var w = $(window).width(); 
-
-                                if (w > 960) {
-
-                                    t.addClass('new-chat-style');
-
-                                    
-                                }
-
-                                
-                                
-                                
-                                t.addClass('reset-z');//reveals the chat div
+                        if($('body#pre-live').length){
+                            t.hide(function(){
+                                t.addClass('chat-position chat-style reset-z').show();//reset-z reveals the chat div
                             });
-                        }); 
+                        }else{
+                            t.addClass('chat-style');//files cached; smoother loading
+                        }
                     }
+                        
                 }
-            });
+            }
         });
-        var config = {attributes: true, childList: true, characterData: true};
-        observer.observe(document.body, config); 
-        //end - listiening live for when chat divs are added to DOM
-    }
-
+    });
+    var config = {attributes: true, childList: true, characterData: true};
+    observer.observe(document.body, config); 
+    //end - listiening live for when chat divs are added to DOM
 
     myChat(); 
 }

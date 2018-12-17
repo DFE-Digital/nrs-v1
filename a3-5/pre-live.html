@@ -10,20 +10,20 @@
     <meta name="theme-color" content="#0b0c0c" /> 
 
     
-      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon" />
-      <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c"> 
-      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
-      <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
-      <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
-    
+    <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+  
 
-    
-    
-  <!--[if lte IE 8]><link href="/stylesheets/application-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
-<!--[if gt IE 8]><!--><link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen"><!--<![endif]-->
+  
+  
+    <!--[if lte IE 8]><link href="/stylesheets/application-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if gt IE 8]><!--><link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen"><!--<![endif]-->
 
-<link rel="stylesheet" type="text/css" href="/stylesheets/application.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/application.css" media="screen">
     
     
     <meta property="og:image" content="/assets/images/govuk-opengraph-image.png">
@@ -97,13 +97,10 @@
   <div class="govuk-width-container">
     <div class="govuk-breadcrumbs">
       <ol class="govuk-breadcrumbs__list">
-        <li class="govuk-breadcrumbs__list-item">
-          <a class="govuk-breadcrumbs__link" href="#">Home</a>
+        <li class="govuk-breadcrumbs__list-item" aria-current="page">
+          Home
         </li>
-        <li class="govuk-breadcrumbs__list-item">
-          <a class="govuk-breadcrumbs__link" href="#">Functional maths skills</a>
-        </li>
-        <li class="govuk-breadcrumbs__list-item" aria-current="page">Your lessons</li>
+
       </ol>
     </div>
 
@@ -114,10 +111,12 @@
 
           <!--div id="chatIntro">show/hide chat</div-->
           
-          <p class="govuk-body-l govuk-!-font-weight-bold">
-            Before we start, say hello to your live <br>
-            tutor, who is here to help you&nbsp;<span class="arrow">&rarr;</span>
-          </p>
+          <div class="highlight">
+            <p class="govuk-body-l govuk-!-font-weight-bold">
+              Before we start, say hello to your live <br>
+              tutor, who is here to help you&nbsp;<span class="arrow">&rarr;</span>
+            </p>
+          </div>
           
 
 
@@ -171,31 +170,20 @@
       <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
         
           
-            <h2 class="govuk-visually-hidden">Support links</h2>
-            <ul class="govuk-footer__inline-list">
-              
-                <li class="govuk-footer__inline-list-item">
-                  <a class="govuk-footer__link" href="https://govuk-prototype-kit.herokuapp.com/">
-                    GOV.UK Prototype Kit v8.4.0
-                  </a>
-                </li>
-              
-                <li class="govuk-footer__inline-list-item">
-                  <a class="govuk-footer__link" href="/prototype-admin/clear-data">
-                    Clear data
-                  </a>
-                </li>
-
-                <li class="govuk-footer__inline-list-item">
-
-                  <a class="govuk-footer__link" href="#" onClick="openCrisp()">Open chat</a>
-                </li>
-
-                <li class="govuk-footer__inline-list-item">
-                  <a class="govuk-footer__link" href="#" id="clearChat">Clear chat session</a>
-                </li>
-              
-            </ul>
+        <h2 class="govuk-visually-hidden">Support links</h2>
+        <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://govuk-prototype-kit.herokuapp.com/">
+                GOV.UK Prototype Kit v8.4.0
+              </a>
+            </li>
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="#" id="openChat">Open chat panel</a>
+            </li>
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="#" id="clearChat">Clear chat session</a>
+            </li>
+        </ul>
           
           
         

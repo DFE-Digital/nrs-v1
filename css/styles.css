@@ -458,19 +458,26 @@ body#pre-live .crisp-client.reset-z {
     position: static; 
     z-index: 2 !important; 
 }
-body#pre-live .crisp-client.new-chat-style #crisp-chatbox div.crisp-ewasyx {
+body .crisp-client.chat-position #crisp-chatbox div.crisp-ewasyx {
     left: 850px !important;
     width: 630px !important;
     top: 38px !important;
-
-    border: 3px solid #000 !important; 
-    box-shadow: 12px 10px 30px rgba(0,0,0,0.3) !important;
 }
-body#pre-live .crisp-client.new-chat-style #crisp-chatbox div.crisp-ewasyx {
-    border: 3px solid #000 !important; 
-    box-shadow: 12px 10px 30px rgba(0,0,0,0.3) !important;
+body .crisp-client.chat-style #crisp-chatbox div.crisp-ewasyx {
+    border: 2px solid #0b0c0c !important; 
+    box-shadow: 12px 10px 30px rgba(0,0,0,0.5) !important;
 }
 
+div.highlight {
+    display: block; 
+    width: 70%; 
+    padding: 2em; 
+    border: 6px solid #005ea5; 
+    margin: 0 0 2.5em 0; 
+}
+div.highlight p {
+    margin: 0; 
+}
 span.arrow {
     font-size: 140%; 
 } 

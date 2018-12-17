@@ -444,14 +444,36 @@ body.type .type {
 
 
 #chatIntro {
-    border: 1px solid #000; 
-    width: 100%; 
-    min-height: 200px; 
-    background: #eee; 
+    
 }
 
 
 
+
+body#pre-live .crisp-client {
+    position: absolute; 
+    z-index: -500 !important; 
+}
+body#pre-live .crisp-client.reset-z {
+    position: static; 
+    z-index: 2 !important; 
+}
+body#pre-live .crisp-client.new-chat-style #crisp-chatbox div.crisp-ewasyx {
+    left: 850px !important;
+    width: 630px !important;
+    top: 38px !important;
+
+    border: 3px solid #000 !important; 
+    box-shadow: 12px 10px 30px rgba(0,0,0,0.3) !important;
+}
+body#pre-live .crisp-client.new-chat-style #crisp-chatbox div.crisp-ewasyx {
+    border: 3px solid #000 !important; 
+    box-shadow: 12px 10px 30px rgba(0,0,0,0.3) !important;
+}
+
+span.arrow {
+    font-size: 140%; 
+} 
 
 
 
@@ -470,7 +492,8 @@ h4 a {
 }
 
 #footerLinks a {color: rgb(69, 74, 76); }
-.hidden {position: absolute; left: -300px; top: -3000px; }
+.hidden {position: absolute; left: -3000px; top: -3000px; }
+.hiddenR {position: absolute !important; right: -3000px !important; bottom: -3000px !important; }
 
 hr.std {height: 1px; height: 0.5px; border-width: 0; color:#bfc1c3; background-color:#bfc1c3; }
 

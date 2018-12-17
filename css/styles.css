@@ -483,29 +483,25 @@ span.arrow {
 } 
 
 
-
-/*#crisp-chatbox > div > div > div.crisp-zyxrmn > div > div.crisp-z7oo2o.crisp-145mbcr > div > div.crisp-g5n37j > div > div > div > div > span.crisp-z89v5n.crisp-15h9f8s > span.crisp-162m9xf.crisp-1aiychk.crisp-ws3gf1 > span.crisp-1o2g4mc.crisp-9dgo7z.crisp-12w1xmh {
-    border: 2px solid lime !important; 
-
-overflow: hidden !important;
-    display: inline-block !important;
-line-height: 10 !important;
-    height: 16px !important;
-
-}
+/* *************** start: a disgusting hack that will break if these classes change! ******************* */
+/*
+#crisp-chatbox > div > div > div.crisp-zyxrmn > div > div.crisp-z7oo2o.crisp-145mbcr > div > div.crisp-g5n37j > div > div > div > div > span.crisp-z89v5n.crisp-15h9f8s > span.crisp-162m9xf.crisp-1aiychk.crisp-ws3gf1 > span.crisp-1o2g4mc.crisp-9dgo7z.crisp-12w1xmh {overflow: hidden !important; display: inline-block !important; line-height: 10 !important; height: 16px !important; }
 
 #crisp-chatbox > div > div > div.crisp-zyxrmn > div > div.crisp-z7oo2o.crisp-145mbcr > div > div.crisp-g5n37j > div > div > div > div > span.crisp-z89v5n.crisp-15h9f8s > span.crisp-162m9xf.crisp-1aiychk.crisp-ws3gf1 > span.crisp-1o2g4mc.crisp-9dgo7z.crisp-12w1xmh:after {
 
-    content: 'Hello'; 
-    position: absolute; 
-    display: inline-block; 
-    height: 16px; 
-    width: 100px; 
-    color: #000; 
-    border: 1px solid purple; 
+content: 'Hi my name is Rob, I am here help ...';
+    position: absolute !important;
+    display: inline-block !important;
+    height: 62px !important;
+    width: 346px !important;
+    color: #fff !important;
+
+    left: 16px !important;
+    top: -53px !important; 
+    font-size: 14px !important; 
 
 }*/
-
+/* *************** end: a disgusting hack that will break if these classes change! ******************* */
 
 
 #hideJobs {

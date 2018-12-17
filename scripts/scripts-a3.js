@@ -106,10 +106,12 @@ function init(){
                 });
 
                 if(hasClass){// element has class `MyClass`
+                    
+                    var t = $('body').children('.crisp-client');
 
                     //here we instantly hide the div(s) so we can then add a style class, and then show
                     if ($(window).width() > 960) {//only for desktops
-                        var t = $('body').children('.crisp-client');
+                        
 
                         if($('body#pre-live').length){
                             t.hide(function(){
@@ -119,7 +121,6 @@ function init(){
                             t.addClass('chat-style');//files cached; smoother loading
                         }
                     }
-                        
                 }
             }
         });

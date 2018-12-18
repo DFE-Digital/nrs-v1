@@ -459,7 +459,7 @@ body#pre-live .crisp-client.reset-z {
     z-index: 2 !important; 
 }
 body .crisp-client.chat-position #crisp-chatbox div.crisp-ewasyx {
-    left: 850px !important;
+    /*left: 850px !important;         no good on big monitors with high resolution */
     width: 630px !important;
     top: 38px !important;
 }

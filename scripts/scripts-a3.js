@@ -73,12 +73,15 @@ function myChat(){
 
     $('#clearChat').click(function(e){
         e.preventDefault();
-       //js cookie clear 
-        document.cookie.split(";").forEach(function(c) { 
-            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
-        });
+    
+        $crisp.push(["do", "session:reset", [true]]);//clears chat session and reloads page for full refresh
 
-        location.reload();
+
+        //js cookie clear but problems with crisp as cookies from a different domain: so unreliable clearing
+        //document.cookie.split(";").forEach(function(c) { 
+            //document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
+        //});
+        //location.reload();
     }); 
 
     $('#openChat').click(function(e){
@@ -90,7 +93,7 @@ function myChat(){
 
 
 $(window).on('load', function() {
-    openCrisp(); //open the chat panel on each page
+    openCrisp(); //open the chat panel automatically on each page (window onload: after all files have loaded)
 });
 
 
